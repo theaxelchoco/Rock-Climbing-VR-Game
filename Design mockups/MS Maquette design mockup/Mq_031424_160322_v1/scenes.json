@@ -1,0 +1,4756 @@
+{
+  "lastSelectedSceneGuid": "c74f9e0e-4074-47d6-ad8d-e767956a534d",
+  "applyMasterStageEnvironment": false,
+  "slides": [
+    {
+      "sceneGuid": "c74f9e0e-4074-47d6-ad8d-e767956a534d",
+      "sceneName": "New Slide",
+      "sequenceIndex": 0,
+      "treeRoots": [
+        {
+          "entityStateGuid": "fbabc36e-07a0-415e-afa8-76d34bd0607b",
+          "targetEntityGuid": "903783a4-7ed8-4a9e-a735-1a96ae5ccd32",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.700510442,
+              "y": -0.284956843,
+              "z": -7.40520859
+            },
+            "rotation": {
+              "x": 0.00203812774,
+              "y": -0.9351868,
+              "z": 0.00232734345,
+              "w": -0.354141474
+            },
+            "scale": {
+              "x": 0.005702847,
+              "y": 0.00570283271,
+              "z": 0.005702847
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "52cd98aa-edf6-4a68-94b4-771be77b9602",
+          "targetEntityGuid": "21c53142-ae76-4fc9-be9f-80782eaab0d8",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 0.0
+          },
+          "materialId": "",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 9.739094,
+              "y": 8.591578,
+              "z": -15.9634647
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.392221779,
+              "z": 0.0,
+              "w": 0.9198707
+            },
+            "scale": {
+              "x": 16.4989014,
+              "y": 16.4989,
+              "z": 16.4989014
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "98b2003e-d467-4674-9b88-23ec837e5def",
+          "targetEntityGuid": "94973cd6-2373-4767-a2a7-576a7f8733cf",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411252,
+            "g": 0.999998,
+            "b": 0.32328105,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.80270344,
+              "y": -0.78181076,
+              "z": -5.8893013
+            },
+            "rotation": {
+              "x": 0.256851971,
+              "y": -0.656604,
+              "z": 0.6609786,
+              "w": 0.2569156
+            },
+            "scale": {
+              "x": 20.6403,
+              "y": 20.6402817,
+              "z": 20.6402855
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c733c7b5-d5bd-45ea-835d-673905069690",
+          "targetEntityGuid": "08f6f2c2-8a2e-4268-af48-dbc0ac1a3160",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -4.74451542,
+              "y": 7.645615,
+              "z": -3.14094734
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.09866879,
+              "z": 0.0,
+              "w": 0.995120347
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "7e08490e-034e-46d9-bd44-2ec4af06e8a8",
+          "targetEntityGuid": "ebdc730d-7284-40d6-a61e-ebdf9f4d684f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -5.62005663,
+              "y": 7.261322,
+              "z": -4.72088337
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.120157406,
+              "z": 0.0,
+              "w": 0.9927549
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "18e13d52-b332-493d-a24f-63af2f3f45b3",
+          "targetEntityGuid": "9f4c3b70-8bdd-40fc-9409-34073912a7aa",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -6.546364,
+              "y": 7.307734,
+              "z": -7.139563
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.131508291,
+              "z": 0.0,
+              "w": 0.9913151
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1942d7d0-cecf-4277-8269-c5c7e9a7615f",
+          "targetEntityGuid": "ac6efcc7-f611-431e-b9d8-13b17c685b25",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.0845617056,
+              "y": 7.84286833,
+              "z": 0.765660763
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.162632391,
+              "z": 0.0,
+              "w": 0.986686766
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "3d80413c-27e4-43fc-96e0-02208845b74a",
+          "targetEntityGuid": "a3de19e0-27e9-4156-a727-0aaf9674e969",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -9.898138,
+              "y": 7.12190342,
+              "z": -9.643058
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.1992053,
+              "z": 0.0,
+              "w": 0.9799578
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "cb7e0593-59e4-4eef-91fc-b39f6461ac36",
+          "targetEntityGuid": "f978ed50-5bfb-4937-9ed9-7cf505243a01",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.445619,
+              "y": 5.84392738,
+              "z": -4.68692064
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.146629661,
+              "z": 0.0,
+              "w": 0.9891915
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "3c952680-3f57-4ebf-8792-8e2289f98c9f",
+          "targetEntityGuid": "2b8b7d40-5e9d-4820-ae0a-ede5edec5708",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -6.68624973,
+              "y": 15.3704834,
+              "z": -1.25464439
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.25588,
+              "z": 0.0,
+              "w": 0.966708541
+            },
+            "scale": {
+              "x": 58.263813,
+              "y": 58.263813,
+              "z": 58.263813
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e64320f6-f4e3-4c3b-aa7f-56aa6692f890",
+          "targetEntityGuid": "1a7ee95d-35ed-4eb0-822e-7399f23ea038",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -12.633317,
+              "y": 6.03617668,
+              "z": 3.09010816
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.5969174,
+              "z": 0.0,
+              "w": 0.8023027
+            },
+            "scale": {
+              "x": 178.275543,
+              "y": 178.275543,
+              "z": 178.275543
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "50dad49f-49db-44de-b273-04f256c15183",
+          "targetEntityGuid": "00cc4661-abaa-4a28-8e22-733b61a04b37",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -6.29952669,
+              "y": 8.375348,
+              "z": 18.2484035
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.458681852,
+              "z": 0.0,
+              "w": 0.8886005
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "0a6642de-880f-4a27-b6d2-f1d03c621e36",
+          "targetEntityGuid": "248f5186-8b8b-4f4a-b3f4-b96ccd678c2a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.1576488,
+              "y": 8.428273,
+              "z": 16.3211079
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.457936227,
+              "z": 0.0,
+              "w": 0.888985038
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c1921ba3-f1c9-4827-a780-f18285bb36a9",
+          "targetEntityGuid": "aafaac38-440e-4b2e-b5fb-accff833f1fe",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.108983278,
+              "y": 7.08873,
+              "z": 15.0648975
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.447805583,
+              "z": 0.0,
+              "w": 0.894131
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "fe297fa8-68a7-4819-8313-e802c09b23dd",
+          "targetEntityGuid": "0d9c4848-6b00-424b-adb3-b7e82e1b34de",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.52527189,
+              "y": 7.290472,
+              "z": 13.040288
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.443689138,
+              "z": 0.0,
+              "w": 0.8961808
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "21fca3d9-4446-4b54-862d-cef954379887",
+          "targetEntityGuid": "99fbc356-137c-45d4-84cb-c573e9500649",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.07556248,
+              "y": 7.44399834,
+              "z": 11.568615
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.446476847,
+              "z": 0.0,
+              "w": 0.894795239
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "47edaecb-3676-4de1-bd3a-f114c8cc7548",
+          "targetEntityGuid": "3cbe49fd-4cc9-4a92-bb80-1c734c282fab",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 3.821825,
+              "y": 7.54250574,
+              "z": 8.833712
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.4529494,
+              "z": 0.0,
+              "w": 0.891536236
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "f4274aea-36fd-4f9b-9bd2-f34d4b2cbebf",
+          "targetEntityGuid": "03a64622-4398-4e87-9d7e-5883ab036ee5",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.825689,
+              "y": 6.161996,
+              "z": 7.5847044
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.439285517,
+              "z": 0.0,
+              "w": 0.8983475
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "896b23eb-37e9-4592-b789-3cbfd7e78319",
+          "targetEntityGuid": "79e76ed6-024d-416c-bd1d-ede0e40518f9",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.859496,
+              "y": 5.24370241,
+              "z": 6.69801044
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.42885685,
+              "z": 0.0,
+              "w": 0.903372467
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "4bf5960c-c835-4d36-8ff0-9e215be43358",
+          "targetEntityGuid": "ed63a306-349f-4057-a5d0-564c8aeadbce",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 5.29780149,
+              "y": 6.926374,
+              "z": 10.4354725
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.4130728,
+              "z": 0.0,
+              "w": 0.910698
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "80979b11-7fe1-41df-8472-7d6e57102c2e",
+          "targetEntityGuid": "924c5532-ec90-474c-9c6b-55f4dcd9931e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.365404725,
+              "y": 13.4746056,
+              "z": 12.4416485
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.43039462,
+              "z": 0.0,
+              "w": 0.9026408
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "8fdfb7a9-775b-40a6-a872-d93291157055",
+          "targetEntityGuid": "2b1c7448-5d27-4743-ad07-de85d86ba2b9",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -6.11351252,
+              "y": 19.8702278,
+              "z": 11.18947
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.404571652,
+              "z": 0.0,
+              "w": 0.9145063
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "17e7d100-ec5a-44cc-bca0-9ba809cee293",
+          "targetEntityGuid": "408370d6-83b5-4f07-8911-da8b563a0b3e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.506904,
+              "y": 6.60316658,
+              "z": 8.30891
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.418818355,
+              "z": 0.0,
+              "w": 0.90807
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "ebbaccd9-60c7-4e8a-a6dc-71293d2cba2c",
+          "targetEntityGuid": "3e587bf6-036b-481e-8a0a-0364cc9faab8",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.503293,
+              "y": 5.71016932,
+              "z": 7.249947
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.445252776,
+              "z": 0.0,
+              "w": 0.895404935
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "96cb8d97-90ee-412e-912c-1ae1abd29f86",
+          "targetEntityGuid": "ad2111dd-fa25-4273-8556-3814fa06ab5f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.23471,
+              "y": 4.04237843,
+              "z": 5.425139
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.4346275,
+              "z": 0.0,
+              "w": 0.9006103
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "3299711c-0b9a-49c7-8195-83be56646c10",
+          "targetEntityGuid": "367bcb5b-9c31-491c-895e-0f058258a7d4",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 4.45853424,
+              "y": 5.37183,
+              "z": 5.71536732
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.420532644,
+              "z": 0.0,
+              "w": 0.9072774
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "7e9ffe94-2f08-401f-ba92-39bee0215c00",
+          "targetEntityGuid": "0c2277c1-bf9a-4a65-bc0c-d0e8fbe0ab32",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 6.30124,
+              "y": 2.41747427,
+              "z": 8.240858
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.365439653,
+              "z": 0.0,
+              "w": 0.930835068
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "85094278-9553-4795-9daa-7bd0c5c92d77",
+          "targetEntityGuid": "1aedf333-74fd-4ebe-a2a3-8d1c8e4bf0b0",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 6.482843,
+              "y": 1.78708029,
+              "z": 10.1274185
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.40352717,
+              "z": 0.0,
+              "w": 0.914967656
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "56892fbe-4448-4963-ad25-c0fb692ebd96",
+          "targetEntityGuid": "3634e102-b0be-4aa7-a3dd-d2b6c5a855a5",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 8.202743,
+              "y": -0.396262884,
+              "z": 5.980355
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.476827383,
+              "z": 0.0,
+              "w": 0.878996968
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "d228d36d-3f49-474c-a308-f152d738f179",
+          "targetEntityGuid": "ab847758-d087-41db-bd7c-57d43e334d1e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 3.84232259,
+              "y": 5.439721,
+              "z": 16.003685
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.6011349,
+              "z": 0.0,
+              "w": 0.799147546
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e5f52af7-2e2a-49ff-9572-443abfcd656b",
+          "targetEntityGuid": "f916ca19-5fe0-4bb8-9468-acf4b9a5494a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.935588837,
+              "y": 6.13095331,
+              "z": 18.1926422
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.413121939,
+              "z": 0.0,
+              "w": 0.9106757
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "7546d570-8362-4080-9694-e4c127aa2615",
+          "targetEntityGuid": "0388b4c3-af56-4086-bfea-078d48efb237",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -11.8418455,
+              "y": 8.997967,
+              "z": 20.0307312
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.538222432,
+              "z": 0.0,
+              "w": 0.8428028
+            },
+            "scale": {
+              "x": 100.058838,
+              "y": 100.058838,
+              "z": 100.058838
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "345895a0-07d8-4428-8db4-45cc3346bedf",
+          "targetEntityGuid": "b7002997-00f1-45e9-870a-6d1025b14f02",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.218302727,
+              "y": 0.0116028786,
+              "z": -6.760022
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "a7d5cb9f-7be1-46ba-8c12-053cf406c3ff",
+          "targetEntityGuid": "35fab51a-5355-4b11-a178-6346a1cdc49a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.07057476,
+              "y": 0.435788631,
+              "z": -5.6020155
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "0ab9c808-9b33-4a58-8ae7-20553af4dc35",
+          "targetEntityGuid": "79edf045-62bc-4374-8e63-503c8b113242",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.43032074,
+              "y": 1.05612564,
+              "z": -4.6742487
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "3c9dde31-f92e-46d3-9a93-b3fd57e74d34",
+          "targetEntityGuid": "2c53990a-8415-4558-b312-9fa23a6f4d55",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.33570719,
+              "y": 1.03449726,
+              "z": -4.615734
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1b657fb8-5d74-4fb5-869f-df8d67798d29",
+          "targetEntityGuid": "b7bc2c84-0457-427d-bc49-7a3a2105a90c",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.87782192,
+              "y": 1.7404995,
+              "z": -3.20890737
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "78df929d-fb47-4795-8c0c-cfe09640fa6e",
+          "targetEntityGuid": "cf0039bb-8f77-4d3c-a211-c59258daf117",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 2.07463169,
+              "y": 1.13906574,
+              "z": -3.67252231
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "880f0ff4-d75f-48bb-bf01-16a776096b39",
+          "targetEntityGuid": "35f8b29b-b7e7-4990-96d6-4254cc150ef6",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.93599033,
+              "y": 1.64410973,
+              "z": -3.19431376
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "54ea60e6-a8a8-484d-bcb4-e84849e061b6",
+          "targetEntityGuid": "50bdae7e-5b31-477a-bb1c-3162874bae10",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.92118979,
+              "y": 2.872446,
+              "z": -1.39101458
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "ed1d2681-a669-4c88-9136-e2b3f93d80bc",
+          "targetEntityGuid": "4192be10-cf49-4486-822b-030f159e5133",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 3.9587183,
+              "y": 0.8412962,
+              "z": -2.574344
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "6a108428-3da8-448a-b66d-482b4d5182ad",
+          "targetEntityGuid": "f6d614f3-61a3-4384-9e04-f0eb61a0397f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 3.20713425,
+              "y": -0.1852436,
+              "z": -4.14968967
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "35b249f8-d196-4d1b-a13f-b5af4e6a42bc",
+          "targetEntityGuid": "9db52f9e-88a2-426c-ae48-969a547c9c0b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 2.73961973,
+              "y": 0.494245529,
+              "z": -3.87086868
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "dc55f7ca-192d-40c2-a975-fadc85cf41d1",
+          "targetEntityGuid": "9e72be8a-7bb1-41a4-acd8-5370ece10f5f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.354406357,
+              "y": 0.598743439,
+              "z": -6.024914
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "0900dba2-6169-405f-aa18-6ae749dd30ae",
+          "targetEntityGuid": "6ada5a36-2af1-47fe-9cda-dfa8f38dd54a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.8258991,
+              "y": 2.03463173,
+              "z": -3.56978774
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "24390ad6-331f-431e-9372-2b5e89148d2f",
+          "targetEntityGuid": "86674cf4-3fe0-4281-9028-53f3a72e70cd",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.045440197,
+              "y": 2.65598,
+              "z": -4.227991
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "ab8df90a-0fb9-4950-942d-642ef6236b2c",
+          "targetEntityGuid": "8ee89e4c-42e6-4628-b7b9-937e4ecb87c4",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.9486232,
+              "y": 2.995635,
+              "z": -4.57404947
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "532d4420-c4c7-44f7-a728-2cfc42b9a1a0",
+          "targetEntityGuid": "11686ae7-e9e0-4d39-8cd2-f376a96ce21b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.340987682,
+              "y": 3.476163,
+              "z": -3.23767519
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "7bce56de-897c-4474-8683-65e218a889e8",
+          "targetEntityGuid": "bc025040-425d-43b5-b23f-76341bcf0f13",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.7089062,
+              "y": 3.815812,
+              "z": -1.98201871
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c2ed7798-9213-4c6c-b638-123da4cd3477",
+          "targetEntityGuid": "9fdd4b70-bc08-45f7-b428-3b9869772d9b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.81044292,
+              "y": 4.37741375,
+              "z": -0.5836785
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "366f046d-cd69-4c0e-8dbe-56d04488f91b",
+          "targetEntityGuid": "7d1307e0-713c-4361-aa8c-c18a1d8e38e3",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 3.0177207,
+              "y": 1.66381264,
+              "z": -1.89432931
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "15f6e7a9-d686-4216-844d-036a0b1e9157",
+          "targetEntityGuid": "18ebeca1-b47e-4f97-82af-819707d12e4b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 3.133235,
+              "y": 1.735178,
+              "z": -1.86285043
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "232552e8-f4b7-4a3c-96fb-3e03843c2aba",
+          "targetEntityGuid": "15d0ea80-009f-44f6-90ca-f4835b05bd8d",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.8416438,
+              "y": 5.18717957,
+              "z": -1.14631677
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "9327e5de-df3a-453d-b41f-dad91d86af90",
+          "targetEntityGuid": "fbe6ed06-80c8-4794-bfb5-1d1bc99ebac0",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -8.678436E-05,
+              "y": 4.511593,
+              "z": -2.1699996
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "2095b4fa-409e-4da2-a979-146b67682d9c",
+          "targetEntityGuid": "912fe776-0a01-4b9e-a414-3cbc8cba52e6",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.17435408,
+              "y": 4.0595274,
+              "z": -3.8362782
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "cae5eefa-91ce-4149-bcc3-9184109d88c8",
+          "targetEntityGuid": "0279ced3-aebd-4135-a575-d96557fe291e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.0941097662,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.9102354,
+              "y": 4.03721142,
+              "z": -3.54321861
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e7c399ab-d4e4-4b67-a8d4-bcfe73013623",
+          "targetEntityGuid": "c8b63a5f-180e-48e4-8955-336a2393315a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.09411148,
+            "g": 0.86405015,
+            "b": 0.999995947,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.86417007,
+              "y": 7.49805069,
+              "z": -3.650103
+            },
+            "rotation": {
+              "x": 0.008620864,
+              "y": -0.110464469,
+              "z": -0.003326517,
+              "w": 0.9938371
+            },
+            "scale": {
+              "x": 58.2638245,
+              "y": 58.26381,
+              "z": 58.2637939
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "d35f1fb6-3aed-4fcd-a753-106ed6a32241",
+          "targetEntityGuid": "0105f24d-246b-46ea-aa3c-bc3e1a3ec82b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.9605577,
+              "y": 3.78096342,
+              "z": -4.624554
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.36150077,
+              "z": 0.0,
+              "w": 0.932371855
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "11ea33de-06ee-45a9-a10f-02664b2d3dc4",
+          "targetEntityGuid": "21dd244f-62ca-4275-bdcf-16decf39ee0e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.763031,
+              "y": 2.60658073,
+              "z": -5.96148
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.363672882,
+              "z": 0.0,
+              "w": 0.9315268
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "73109c12-e932-482e-9a02-31a477bb6689",
+          "targetEntityGuid": "8579fe8a-85cc-40f2-b9dd-079fcf19facc",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.087974,
+              "y": 2.01856542,
+              "z": -7.57609463
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.361027241,
+              "z": 0.0,
+              "w": 0.932555258
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "06276f54-cc57-4aa4-961a-93ed282ac361",
+          "targetEntityGuid": "af8ac713-acea-4d6e-bd85-8e402e25ab34",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -5.72200155,
+              "y": 4.27499628,
+              "z": -10.3019142
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.5557979,
+              "z": 0.0,
+              "w": 0.831317544
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "0dd0857f-a4a8-4d97-a38c-23c82148ef1b",
+          "targetEntityGuid": "f59cb673-309f-41ae-b0de-33196e200190",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.80726218,
+              "y": 7.12724829,
+              "z": -4.450041
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.340622127,
+              "z": 0.0,
+              "w": 0.9402003
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "5ec0750c-db59-4ffd-8e5e-93bb33aa96a3",
+          "targetEntityGuid": "73815d75-c455-49b1-b5f8-62eda1a82437",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.81422615,
+              "y": 4.36492825,
+              "z": -7.597034
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.39175275,
+              "z": 0.0,
+              "w": 0.9200706
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "ba4677d8-6443-4bee-bb97-f47ce179f60d",
+          "targetEntityGuid": "d1851270-91d4-4a96-bcb5-34890fa6f6a4",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.0941114649,
+            "g": 0.86405015,
+            "b": 0.9999959,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.45975268,
+              "y": 3.92938137,
+              "z": -4.4729743
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": -0.31978175,
+              "z": 0.0,
+              "w": 0.9474912
+            },
+            "scale": {
+              "x": 21.67239,
+              "y": 21.67239,
+              "z": 21.67239
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "d5887471-a16e-411a-a14b-48f22ab1b038",
+          "targetEntityGuid": "70e6fb21-e1a4-4cde-b9b5-75bc457d4766",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 1.86805153,
+              "y": 5.650223,
+              "z": 0.283507347
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e574491c-4160-4728-a436-019cf740ecbd",
+          "targetEntityGuid": "29d6cbcd-7e92-4b47-b535-c2cd81ce804c",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.44292068,
+              "y": 5.65717125,
+              "z": -3.20996547
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1d072de7-0125-4cb7-b5b3-0e1b10a73213",
+          "targetEntityGuid": "2259539c-72f3-4446-97fe-b2ed5f4f8f74",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.37295675,
+              "y": 6.08947468,
+              "z": -4.440404
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "fe7a1356-2181-48b7-91ec-ac50307ac43c",
+          "targetEntityGuid": "dd7f414a-4fdf-406f-a144-aa37cb41b64b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.58064556,
+              "y": 7.102639,
+              "z": -3.78118634
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "d42b8440-caaa-411a-9316-a64d943463cb",
+          "targetEntityGuid": "88dbe0cf-e961-4dde-bef6-f9045f1391c5",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.9324832,
+              "y": 7.53220844,
+              "z": -2.58400273
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "f3ce5be5-ba19-4da0-b160-814108ec6a45",
+          "targetEntityGuid": "26307cfd-78c9-41d4-9ba2-d3529567c4f5",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.15130329,
+              "y": 8.034983,
+              "z": -1.20987177
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "2047df2e-f897-4c8d-b1a4-d6ed353a48ef",
+          "targetEntityGuid": "d919cad5-8809-421a-8b91-3f962d3c4232",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.94287109,
+              "y": 8.367939,
+              "z": -1.76401234
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "51a8ff0c-aafb-4d22-a968-81c046a84ecf",
+          "targetEntityGuid": "a5d40787-89b5-401e-8302-842bd58c2432",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.9878273,
+              "y": 8.427971,
+              "z": -1.68560457
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "4ab9555a-de7a-4995-8b0b-7310f4d219a6",
+          "targetEntityGuid": "8b915dca-582a-4d12-ace5-f6dd870b15fa",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.31790972,
+              "y": 8.972368,
+              "z": -0.599694252
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c1fc9d0c-f2be-4179-81eb-ac07ccd2d3d2",
+          "targetEntityGuid": "6d213596-212f-4126-af13-6e1969c7bed3",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.46557665,
+              "y": 8.961639,
+              "z": -0.597684145
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "07138ea8-28d5-4ee5-bae9-dafd3454270c",
+          "targetEntityGuid": "7708064a-240a-424e-99da-2f1989a2ab7e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.25985813,
+              "y": 8.710537,
+              "z": -0.421249151
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c6545ffe-b838-4b48-aa69-6791c6fbe6d6",
+          "targetEntityGuid": "0443b80c-0cf8-4d77-a1bd-f99680c8961d",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.96621084,
+              "y": 9.20165348,
+              "z": -2.06194162
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1c7594fe-8e34-4036-b627-462f3662d5d0",
+          "targetEntityGuid": "f41d8d72-1ff8-4e16-a9ec-b92874645ea5",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.24507022,
+              "y": 8.203823,
+              "z": -3.267201
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "ee11a90b-a0c3-45e7-b8d4-116d2b097a97",
+          "targetEntityGuid": "8d2b5ea6-f359-42cf-bb8e-92702a53ba9f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.32371378,
+              "y": 10.0289936,
+              "z": -0.9603332
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "65f217ad-c03a-4eb1-bbec-cbb596a0582b",
+          "targetEntityGuid": "2ec3907b-f2bd-4819-8b83-a0a4a267162a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.49920464,
+              "y": 10.6914206,
+              "z": -2.31037831
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "a0a9db53-c515-4752-8ec4-9179059fb3c3",
+          "targetEntityGuid": "07b3d219-d08d-48cb-a7b5-af0d50209b82",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.80298376,
+              "y": 11.5725241,
+              "z": -0.443987131
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "67de602b-cb6e-455d-aa5e-94de7cdbbe56",
+          "targetEntityGuid": "bdef8e52-e26f-4969-9e2e-3d8a0480c501",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.747486,
+              "y": 12.3445911,
+              "z": -2.24469137
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "f56912f1-a923-4b09-84c3-6d9e42569307",
+          "targetEntityGuid": "e3b3988e-7fc9-4071-baa8-eb84feb9ea40",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.13037729,
+              "y": 13.8248014,
+              "z": -0.661109
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "097c46bc-564d-4cfa-b6b6-03accb448965",
+          "targetEntityGuid": "2de9374b-1ca7-49c3-ab95-5f1dc1d1d284",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.15386581,
+              "y": 13.8853941,
+              "z": 0.2770127
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "a87fb66a-0c47-4086-8021-f98b6dd6f641",
+          "targetEntityGuid": "c0d63d5b-6538-448c-9038-10487de079e9",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.24901581,
+              "y": 13.0275373,
+              "z": -0.8115927
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c546dfd8-1ebb-4b3e-8b18-abacee3347be",
+          "targetEntityGuid": "0c21bac5-7424-4d67-b11b-59121eb87654",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.77727461,
+              "y": 13.50317,
+              "z": -0.11672318
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e8955ac2-36b4-431f-911c-3ddf95bff402",
+          "targetEntityGuid": "f9eed495-573b-4703-b11b-0f6780374a35",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.389371872,
+              "y": 6.030738,
+              "z": -1.70070672
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "62c97985-5358-4af6-bb04-b294a04b7088",
+          "targetEntityGuid": "15bf5b05-6411-4441-8c19-3504a6a29c50",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.569096565,
+              "y": 6.013818,
+              "z": -1.861342
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "38ae1ad2-a1d4-472d-94cd-1535b1419567",
+          "targetEntityGuid": "0945f20e-474f-44fd-9e25-e07cd570397f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.311031342,
+              "y": 6.021858,
+              "z": -1.66889644
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c8505730-31e8-4470-8a22-7634c0ffa791",
+          "targetEntityGuid": "07041c6b-ef66-4a65-b509-e1730179c75b",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.7355232,
+              "y": 6.77854729,
+              "z": -0.198203564
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "57dc0eaa-ee27-4ff5-b350-0e7ad5d62d8e",
+          "targetEntityGuid": "f403d6c1-633f-4307-a90d-b5c25ab4becd",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.808148861,
+              "y": 6.97800636,
+              "z": -1.3578229
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "df6c7b9d-74cd-43b0-a2a6-a5bd9d2b141e",
+          "targetEntityGuid": "0b07173a-335c-4e50-ab39-bdba97e14dab",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -0.0169854164,
+              "y": 7.963173,
+              "z": 0.2022903
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "74d83f09-c2a1-4861-8e2d-537e9c8b417e",
+          "targetEntityGuid": "ebf52e54-6cd9-451c-82f1-87011dab49e2",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.265201,
+              "y": 13.7872343,
+              "z": -0.5868356
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e0a29682-d1f6-42e7-8578-012a9f36762e",
+          "targetEntityGuid": "82127f2d-51fa-4355-9b22-9246041de4ed",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.18737936,
+              "y": 13.8843117,
+              "z": 0.430740952
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c30aa473-c9f5-46b2-9016-183a0a352b7e",
+          "targetEntityGuid": "3bf76d51-24b1-4089-b5a3-13191a8d17e8",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.7997942,
+              "y": 13.3621178,
+              "z": -0.0677170753
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e51a6b2e-3f19-4de2-b23a-59915fdc30f9",
+          "targetEntityGuid": "71f90edd-b8ea-4427-8b33-1ee602f660ff",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -4.26353168,
+              "y": 14.6963024,
+              "z": -1.02066743
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "ada48327-ed59-4458-9f8d-29a088374e17",
+          "targetEntityGuid": "7293817b-fe12-419b-9b24-e7f50b74a03f",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -2.96215916,
+              "y": 15.4170208,
+              "z": 0.248305082
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "a8b5ceeb-b6e1-4f39-a8c9-1866b8d0e4b6",
+          "targetEntityGuid": "97739840-ca08-4724-8c35-e6d615d397f2",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -1.582859,
+              "y": 14.7047491,
+              "z": 1.31419766
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "b275902b-529d-42b0-827d-ef7df9ed489c",
+          "targetEntityGuid": "baa29ba8-1b5a-4a71-aade-c38611bff1a3",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -4.681505,
+              "y": 16.01112,
+              "z": -0.4760641
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "dae6bf54-76f3-4b55-ad74-f0a2d4f5923b",
+          "targetEntityGuid": "e6d0787c-a75f-455b-9866-876e68ff2132",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.07503271,
+              "y": 16.3092976,
+              "z": 0.900797367
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "86377d7f-f4b3-451e-a51e-7024de7a55a7",
+          "targetEntityGuid": "038a5fe0-a637-4eee-8d1e-d9b979eb8f7d",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -4.26798534,
+              "y": 16.8849983,
+              "z": 0.635864854
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "13e15a23-d131-436d-bc36-c516672acb6e",
+          "targetEntityGuid": "7d89963c-38b3-4192-95f0-07ae28f9ef9a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.980471,
+              "y": 17.22885,
+              "z": 1.17154157
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c8bf04c2-10d2-4f10-944c-9892e898f67d",
+          "targetEntityGuid": "23a121d7-918d-46f8-b790-b40e86e34dee",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.97860026,
+              "y": 17.3190441,
+              "z": 0.9352672
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "a27793d9-35c5-44c5-a184-611ff1c84f87",
+          "targetEntityGuid": "763c58ab-47f9-4dd3-8d1f-f1d329364302",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -3.31376672,
+              "y": 18.3911762,
+              "z": 2.16526985
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "38fb26d3-917d-4c4a-9546-67fd62f31562",
+          "targetEntityGuid": "b27ab30f-0ecf-4a6a-8a91-43f8d110baa6",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -5.840744,
+              "y": 17.4746685,
+              "z": -0.594205
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "283c30a5-7957-4358-a027-1d022d8c607c",
+          "targetEntityGuid": "31e26686-2092-441f-b39a-7751a69b9b64",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -5.53758,
+              "y": 18.79841,
+              "z": 0.0799515247
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "c2e8f5ff-3816-431c-92de-4e719048ec2e",
+          "targetEntityGuid": "2c906e01-3ee6-4cf9-aaec-fb635a80f62a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -4.914063,
+              "y": 19.657217,
+              "z": 2.04949665
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "8ae39688-94bd-4cf6-86aa-fdf88dd15ec7",
+          "targetEntityGuid": "b55b14f5-9e4d-4763-8ba0-f4465cd132ca",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.9594999,
+            "g": 0.9999952,
+            "b": 0.09410974,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": -6.697678,
+              "y": 20.1731625,
+              "z": 0.96632266
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "f1fae419-e675-470c-a8fa-7b45779ac997",
+          "targetEntityGuid": "f6cfc6e9-4cea-43d8-95a3-83734947f659",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.7576772,
+            "g": 0.0941150039,
+            "b": 0.999999464,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.167260647,
+              "y": -0.0361614227,
+              "z": -6.995927
+            },
+            "rotation": {
+              "x": 0.17225033,
+              "y": -0.95565486,
+              "z": -0.204052508,
+              "w": -0.124162629
+            },
+            "scale": {
+              "x": 0.0185926948,
+              "y": 0.018592678,
+              "z": 0.0185926948
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1a562966-e2c1-4d9d-ae0a-440634f0d8c5",
+          "targetEntityGuid": "5d043df4-09c0-45a0-bca7-d86383236e90",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.7576772,
+            "g": 0.0941150039,
+            "b": 0.999999464,
+            "a": 1.0
+          },
+          "materialId": "Lit",
+          "castShadow": true,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.489679337,
+              "y": 0.0191774368,
+              "z": -6.73377466
+            },
+            "rotation": {
+              "x": -0.07051666,
+              "y": 0.8986261,
+              "z": 0.0940943062,
+              "w": 0.4226638
+            },
+            "scale": {
+              "x": 0.021164909,
+              "y": 0.021164868,
+              "z": 0.0211649127
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "95c8e893-7c89-4f6e-8cba-2b46e87de1f7",
+          "targetEntityGuid": "fdcc9afe-dfdf-4d86-9984-7fbebe148896",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.39868924,
+              "y": 0.609941,
+              "z": -6.07996941
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1209b997-04e1-4f23-80a0-f42d4741048c",
+          "targetEntityGuid": "3d1a8a89-291b-453d-a9ee-4df19f732bb5",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.420782566,
+              "y": 0.6146542,
+              "z": -6.20125151
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "535ba490-e623-4dad-ad81-75a0aac13f08",
+          "targetEntityGuid": "499785b3-dc31-4ebc-9136-4f704232041e",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.5077908,
+              "y": 0.7162771,
+              "z": -6.013021
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "1ec7606f-0e47-41c9-bae3-940309c68c59",
+          "targetEntityGuid": "306e058d-74be-4b75-8220-1d7bf10af17d",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.476317465,
+              "y": 0.7828522,
+              "z": -6.033685
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "67ad7f7b-26c0-4671-8720-d4b22778ccd0",
+          "targetEntityGuid": "31501b7e-b267-42fb-a04a-60165bfc6ef6",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.328619957,
+              "y": 0.775207639,
+              "z": -6.183694
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "098367a9-d9f4-4b4b-8e85-0b088b2a8c06",
+          "targetEntityGuid": "15bbd828-d433-486c-9b75-ac6cfd7174c9",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.302705765,
+              "y": 0.6313276,
+              "z": -6.217813
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "46b58aec-20fd-44e9-8e08-425843074fe6",
+          "targetEntityGuid": "8c66377f-06f1-41b3-aea2-ee8c4e9ef0ce",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.420851,
+              "y": 0.606426239,
+              "z": -6.165165
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "5b32ac3b-7c60-4f87-95ec-78599c982a2b",
+          "targetEntityGuid": "2de1c709-f4ef-4770-8c8b-827c13354ba9",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.4044373,
+              "y": 0.5918541,
+              "z": -6.152178
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e3e69d42-b061-4149-8831-93778468e956",
+          "targetEntityGuid": "68f237be-ec6e-42f1-8a59-674536f4530a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.39786315,
+              "y": 0.6037841,
+              "z": -6.165394
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "4d7a7375-39c4-4a50-9533-ef8d2468f445",
+          "targetEntityGuid": "2365fa6d-85c3-4f90-ab4b-5adfde7e069a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.469946921,
+              "y": 0.590446949,
+              "z": -6.04984474
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "e8f2308d-b53e-4295-8c7e-bff0d1253ed2",
+          "targetEntityGuid": "9ab03b64-00fa-4ab3-b426-dbaa1c2c3102",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.378377438,
+              "y": 0.703904033,
+              "z": -6.1023674
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "a87298f5-9e24-4b96-8dc3-b50d63d67de2",
+          "targetEntityGuid": "3b65de2f-e5a6-45ca-b07e-1c71e6b4d41a",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.440101027,
+              "y": 0.7123976,
+              "z": -6.015233
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        },
+        {
+          "entityStateGuid": "b5f3c47f-ba1a-413b-9ef8-08510f552dc9",
+          "targetEntityGuid": "7d66a8b0-4081-4dc2-a9bd-e634c4d69e84",
+          "lockedForEdit": false,
+          "visible": true,
+          "color": {
+            "r": 0.999992967,
+            "g": 0.0941190645,
+            "b": 0.15762499,
+            "a": 1.0
+          },
+          "materialId": "Additive",
+          "castShadow": false,
+          "textEntityState": null,
+          "lightEntityState": null,
+          "cachedTransform": {
+            "position": {
+              "x": 0.386899471,
+              "y": 0.5655694,
+              "z": -6.09213352
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "groupLevel": 0,
+          "parentStateGuid": "",
+          "children": null,
+          "objectPropertyBagCollection": []
+        }
+      ],
+      "sceneSettings": {
+        "Environment": {
+          "Lighting": {
+            "BackgroundTopColor": {
+              "r": 0.8301887,
+              "g": 0.8301887,
+              "b": 0.8301887,
+              "a": 0.0
+            },
+            "BackgroundMiddleColor": {
+              "r": 0.764155567,
+              "g": 0.764155567,
+              "b": 0.7641557,
+              "a": 1.0
+            },
+            "BackgroundBottomColor": {
+              "r": 0.44339487,
+              "g": 0.44339487,
+              "b": 0.4433951,
+              "a": 1.0
+            },
+            "SunColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "SunDirection": {
+              "x": 0.5299155,
+              "y": 0.219498232,
+              "z": -0.313475937,
+              "w": 0.7567978
+            },
+            "SunIntensity": 1.25,
+            "FogColor": {
+              "r": 0.764705956,
+              "g": 0.764705956,
+              "b": 0.764705956,
+              "a": 1.0
+            },
+            "FogDensity": 0.0,
+            "FloorVisibility": true,
+            "FogEnabled": true,
+            "ShadowEnabled": true
+          }
+        },
+        "DefaultHotspotGuid": ""
+      }
+    }
+  ],
+  "stages": [
+    {
+      "sceneGuid": "50faab40-b039-4e1c-88dd-9b1d1a12e3b7",
+      "sceneName": "New Stage",
+      "sequenceIndex": 0,
+      "treeRoots": [],
+      "sceneSettings": {
+        "Environment": {
+          "Lighting": {
+            "BackgroundTopColor": {
+              "r": 0.8301887,
+              "g": 0.8301887,
+              "b": 0.8301887,
+              "a": 0.0
+            },
+            "BackgroundMiddleColor": {
+              "r": 0.764151,
+              "g": 0.764151,
+              "b": 0.764151,
+              "a": 1.0
+            },
+            "BackgroundBottomColor": {
+              "r": 0.4433962,
+              "g": 0.4433962,
+              "b": 0.4433962,
+              "a": 1.0
+            },
+            "SunColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "SunDirection": {
+              "x": 0.5299155,
+              "y": 0.219498232,
+              "z": -0.313475937,
+              "w": 0.7567978
+            },
+            "SunIntensity": 1.25,
+            "FogColor": {
+              "r": 0.764705956,
+              "g": 0.764705956,
+              "b": 0.764705956,
+              "a": 1.0
+            },
+            "FogDensity": 0.0,
+            "FloorVisibility": true,
+            "FogEnabled": true,
+            "ShadowEnabled": true
+          }
+        },
+        "DefaultHotspotGuid": ""
+      }
+    }
+  ],
+  "version": "21",
+  "fileType": "Scenes",
+  "releaseVersion": "2020.3.9.0.2117\r\n"
+}

@@ -1,0 +1,23 @@
+{
+  "canvasTransformRelativeToSecondaryHand": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "scale": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "version": "21",
+  "fileType": "AnchorPoints",
+  "releaseVersion": "2020.3.9.0.2117\r\n"
+}

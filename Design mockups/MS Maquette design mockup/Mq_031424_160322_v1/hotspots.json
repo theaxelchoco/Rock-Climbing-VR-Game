@@ -1,0 +1,18 @@
+{
+  "hotspots": [
+    {
+      "XZPivotedHeadRotation": {
+        "x": 0.0,
+        "y": -0.392221779,
+        "z": 0.0,
+        "w": 0.9198707
+      },
+      "UISequenceIndex": 1,
+      "guid": "21c53142-ae76-4fc9-be9f-80782eaab0d8",
+      "name": "Viewpoint 1"
+    }
+  ],
+  "version": "21",
+  "fileType": "Hotspots",
+  "releaseVersion": "2020.3.9.0.2117\r\n"
+}

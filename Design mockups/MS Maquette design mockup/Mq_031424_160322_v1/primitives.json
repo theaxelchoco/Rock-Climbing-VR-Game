@@ -1,0 +1,2059 @@
+{
+  "primitives": [
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\003_People\\Standing.FBX",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "903783a4-7ed8-4a9e-a735-1a96ae5ccd32",
+      "name": "Standing_196"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>/001_Primitives/004_Plane.fbx",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "94973cd6-2373-4767-a2a7-576a7f8733cf",
+      "name": "004_Plane_194"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_29267429-0e6d-4758-8152-585a8d1ecc3b.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "08f6f2c2-8a2e-4268-af48-dbc0ac1a3160",
+      "name": "Voxel_207"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_6a116033-8914-4319-93a6-7d686c14acc4.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "ebdc730d-7284-40d6-a61e-ebdf9f4d684f",
+      "name": "Voxel_208"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_a872da58-2858-47b4-89fc-724f730b2ed7.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "9f4c3b70-8bdd-40fc-9409-34073912a7aa",
+      "name": "Voxel_209"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_fec266b8-007a-486c-882b-e9c046f7a72f.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f978ed50-5bfb-4937-9ed9-7cf505243a01",
+      "name": "Voxel_220"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_71a9ab06-50b4-41d8-8766-a11048636f00.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "1a7ee95d-35ed-4eb0-822e-7399f23ea038",
+      "name": "Voxel_223"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_726344f1-2df9-4330-a24c-b9c17fc4b3ca.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0105f24d-246b-46ea-aa3c-bc3e1a3ec82b",
+      "name": "Voxel_286"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_ad214910-be37-481d-8289-36d12dbf3fa8.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2b8b7d40-5e9d-4820-ae0a-ede5edec5708",
+      "name": "Voxel_222"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_05c2b0d6-076c-401d-b2dc-4773bf572df6.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "a3de19e0-27e9-4156-a727-0aaf9674e969",
+      "name": "Voxel_219"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_669c3a7a-3812-4cf1-b417-5855e2db1c56.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "ac6efcc7-f611-431e-b9d8-13b17c685b25",
+      "name": "Voxel_217"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_9fad7262-c6e6-4b0e-8958-54bbac3aeb8e.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "00cc4661-abaa-4a28-8e22-733b61a04b37",
+      "name": "Voxel_226"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_423a1e85-76a9-4056-ab79-056c9c90618b.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "248f5186-8b8b-4f4a-b3f4-b96ccd678c2a",
+      "name": "Voxel_227"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_1f6e5622-5087-4511-95aa-aa112b2df294.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "aafaac38-440e-4b2e-b5fb-accff833f1fe",
+      "name": "Voxel_228"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_bbcbbe61-5df8-4e9d-b5c4-981e703aec40.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0d9c4848-6b00-424b-adb3-b7e82e1b34de",
+      "name": "Voxel_229"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_4421c63d-fc7a-4cc8-b59e-74d8592003c2.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "99fbc356-137c-45d4-84cb-c573e9500649",
+      "name": "Voxel_230"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_365f4b57-5eec-4f14-8962-09bb3e1b9ab5.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "3cbe49fd-4cc9-4a92-bb80-1c734c282fab",
+      "name": "Voxel_231"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_5dfc9944-b916-4c16-ae57-abd39334f816.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "03a64622-4398-4e87-9d7e-5883ab036ee5",
+      "name": "Voxel_232"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_aabe5413-b79f-45c2-96b9-c3d30bf1c055.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "79e76ed6-024d-416c-bd1d-ede0e40518f9",
+      "name": "Voxel_233"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_e40b0072-8c27-44c1-b469-a85af3c210a1.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "ed63a306-349f-4057-a5d0-564c8aeadbce",
+      "name": "Voxel_234"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_f683a5b4-c4d4-4136-9b51-5813f5bce761.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "924c5532-ec90-474c-9c6b-55f4dcd9931e",
+      "name": "Voxel_235"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_b316e345-b281-4170-91c0-65e7e572b187.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2b1c7448-5d27-4743-ad07-de85d86ba2b9",
+      "name": "Voxel_236"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_8aa2f855-0be4-450b-b4c2-3ae54ea40577.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "408370d6-83b5-4f07-8911-da8b563a0b3e",
+      "name": "Voxel_237"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_c96d29e7-f0e6-47ea-90e9-9e20824c3291.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "3e587bf6-036b-481e-8a0a-0364cc9faab8",
+      "name": "Voxel_238"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_294db104-3ac5-4603-80af-9f61c1835aa7.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "ad2111dd-fa25-4273-8556-3814fa06ab5f",
+      "name": "Voxel_239"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_ae4b66c9-8314-4e13-a7e6-813fc77e7820.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "367bcb5b-9c31-491c-895e-0f058258a7d4",
+      "name": "Voxel_240"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_7c179950-09d8-4776-bb3e-84784546408a.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0c2277c1-bf9a-4a65-bc0c-d0e8fbe0ab32",
+      "name": "Voxel_241"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_e7ae0288-ca27-42f8-920d-5955947ea6a4.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "1aedf333-74fd-4ebe-a2a3-8d1c8e4bf0b0",
+      "name": "Voxel_242"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_0c53420a-2da5-4fe4-95de-a10d8ff73031.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "3634e102-b0be-4aa7-a3dd-d2b6c5a855a5",
+      "name": "Voxel_243"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_5a8c126e-f316-44e9-8e5c-400b100e1701.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "ab847758-d087-41db-bd7c-57d43e334d1e",
+      "name": "Voxel_244"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_63d0e469-ecbb-4aa0-bcfb-4337f9e53dba.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f916ca19-5fe0-4bb8-9468-acf4b9a5494a",
+      "name": "Voxel_245"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_602193ad-0f0b-46cc-9758-16ee54cea86f.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0388b4c3-af56-4086-bfea-078d48efb237",
+      "name": "Voxel_246"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_a1116780-970c-4fa6-9277-ed68c9eb3c29.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "b7002997-00f1-45e9-870a-6d1025b14f02",
+      "name": "Hull_260"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_103547f9-7398-4494-9879-7496e6bb22ac.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "b7bc2c84-0457-427d-bc49-7a3a2105a90c",
+      "name": "Hull_264"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_5676ab7b-e8e9-47a0-8773-19da410ff02f.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "35fab51a-5355-4b11-a178-6346a1cdc49a",
+      "name": "Hull_261"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_692e75f7-7361-42da-92ef-9470c25476a1.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "79edf045-62bc-4374-8e63-503c8b113242",
+      "name": "Hull_262"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_e1a0967d-cfbd-457a-b1c7-94f21afc407c.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2c53990a-8415-4558-b312-9fa23a6f4d55",
+      "name": "Hull_263"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_f95eae93-6a9a-4e40-a14e-9ea1aba7e4cd.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "50bdae7e-5b31-477a-bb1c-3162874bae10",
+      "name": "Hull_267"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_282d7acc-20ca-4259-8b47-f80e3cc1056c.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "35f8b29b-b7e7-4990-96d6-4254cc150ef6",
+      "name": "Hull_266"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_2d656d03-8886-46e1-8c4a-8992c1c00128.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "cf0039bb-8f77-4d3c-a211-c59258daf117",
+      "name": "Hull_265"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_b593331c-eb4e-4960-b8fd-efbaf758905a.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "4192be10-cf49-4486-822b-030f159e5133",
+      "name": "Hull_268"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_080d21ee-8a51-4a01-8d1f-185b828e34aa.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f6d614f3-61a3-4384-9e04-f0eb61a0397f",
+      "name": "Hull_269"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_1b237203-e6e7-438b-a5a6-5655466c0af7.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "9db52f9e-88a2-426c-ae48-969a547c9c0b",
+      "name": "Hull_270"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_cbe9f51e-4468-4d94-9023-44adb68620c4.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "9e72be8a-7bb1-41a4-acd8-5370ece10f5f",
+      "name": "Hull_271"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_a52902ac-ef6b-456e-b0d1-89930ac5a730.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "6ada5a36-2af1-47fe-9cda-dfa8f38dd54a",
+      "name": "Hull_272"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_6ae0e84c-154b-4285-a89b-ca2b1745838c.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "86674cf4-3fe0-4281-9028-53f3a72e70cd",
+      "name": "Hull_273"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_dbb904ce-a70f-4688-9ff0-ee9a7cdc7072.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "8ee89e4c-42e6-4628-b7b9-937e4ecb87c4",
+      "name": "Hull_274"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_894f07cb-6c23-4ee9-9cf6-7e4a96a4b94a.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "11686ae7-e9e0-4d39-8cd2-f376a96ce21b",
+      "name": "Hull_275"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_ce62fca6-841f-4b51-9c93-b98414cc0089.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "bc025040-425d-43b5-b23f-76341bcf0f13",
+      "name": "Hull_276"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_7fd52d7d-7976-4a28-9a4c-3eefe293a465.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "9fdd4b70-bc08-45f7-b428-3b9869772d9b",
+      "name": "Hull_277"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_1e8823a2-0051-435e-89b3-b10d6a829684.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "7d1307e0-713c-4361-aa8c-c18a1d8e38e3",
+      "name": "Hull_279"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_3d0166fc-ad82-4f84-9d53-d039b5fd3da2.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "18ebeca1-b47e-4f97-82af-819707d12e4b",
+      "name": "Hull_280"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_424438f3-55d4-4809-9cf4-46c9441c55e9.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "15d0ea80-009f-44f6-90ca-f4835b05bd8d",
+      "name": "Hull_281"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_59e13440-037c-479e-ba57-a82eb7711f6d.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "fbe6ed06-80c8-4794-bfb5-1d1bc99ebac0",
+      "name": "Hull_282"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_649740d9-3533-4576-b9e7-2d7266f1356d.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "912fe776-0a01-4b9e-a414-3cbc8cba52e6",
+      "name": "Hull_283"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_cee4e8ef-715f-4ffc-8a06-dba9e8ed58c3.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0279ced3-aebd-4135-a575-d96557fe291e",
+      "name": "Hull_284"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_42a23d71-7de4-46e3-bc34-431974818cbc.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "c8b63a5f-180e-48e4-8955-336a2393315a",
+      "name": "Voxel_218"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_5be14e81-a255-4d18-ae92-262873984f0c.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "21dd244f-62ca-4275-bdcf-16decf39ee0e",
+      "name": "Voxel_287"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_3659bfc3-c7a6-4e1f-87ca-f411b05cb1c6.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "8579fe8a-85cc-40f2-b9dd-079fcf19facc",
+      "name": "Voxel_288"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_1273a176-9aac-438c-8372-3cc664dba874.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "af8ac713-acea-4d6e-bd85-8e402e25ab34",
+      "name": "Voxel_289"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_38974c3f-4662-4826-9ef6-2fa20f3e7bfb.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f59cb673-309f-41ae-b0de-33196e200190",
+      "name": "Voxel_290"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_5e972ac4-de81-4336-b8f8-53ac5d1b2069.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "73815d75-c455-49b1-b5f8-62eda1a82437",
+      "name": "Voxel_291"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Voxel_79ef9430-854b-4d4f-aa12-82debfe0c504.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "d1851270-91d4-4a96-bcb5-34890fa6f6a4",
+      "name": "Voxel_292"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_df50e2b1-c818-44a1-a3ec-f7841ba40bc6.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "70e6fb21-e1a4-4cde-b9b5-75bc457d4766",
+      "name": "Hull_293"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_0d9aa259-607c-4675-875e-20d4915621ba.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "29d6cbcd-7e92-4b47-b535-c2cd81ce804c",
+      "name": "Hull_294"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_9c94d757-ef62-4fa7-867b-adf3c873362a.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2259539c-72f3-4446-97fe-b2ed5f4f8f74",
+      "name": "Hull_295"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_842ff904-4298-4f0b-ac99-e53f580f3a42.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "dd7f414a-4fdf-406f-a144-aa37cb41b64b",
+      "name": "Hull_296"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_f570fc56-fc79-4b36-af2e-95aebe22f1f7.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "88dbe0cf-e961-4dde-bef6-f9045f1391c5",
+      "name": "Hull_297"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_415afc47-ff40-4e13-99a5-0a170f4deff5.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "26307cfd-78c9-41d4-9ba2-d3529567c4f5",
+      "name": "Hull_298"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_d860f601-166f-4aaa-b258-841e891fca5e.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "d919cad5-8809-421a-8b91-3f962d3c4232",
+      "name": "Hull_299"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_aaa0314c-72ed-4e4f-a89e-1edc63b04696.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "a5d40787-89b5-401e-8302-842bd58c2432",
+      "name": "Hull_300"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_08b5be50-ffee-4f19-a3a2-a59882ba2568.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "8b915dca-582a-4d12-ace5-f6dd870b15fa",
+      "name": "Hull_301"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_ddddc88d-3052-479a-ae55-92c8ee221f4e.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "6d213596-212f-4126-af13-6e1969c7bed3",
+      "name": "Hull_302"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_a07c7a24-b478-4e3e-b286-40075a002070.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "7708064a-240a-424e-99da-2f1989a2ab7e",
+      "name": "Hull_303"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_3654fbba-8c9b-4228-83dc-de37fe1bf9d2.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0443b80c-0cf8-4d77-a1bd-f99680c8961d",
+      "name": "Hull_304"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_6aa5a67c-7aa2-425f-a525-4c5b829bb573.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f41d8d72-1ff8-4e16-a9ec-b92874645ea5",
+      "name": "Hull_305"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_e1c76350-810f-4121-8bb1-2302a92430d0.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "8d2b5ea6-f359-42cf-bb8e-92702a53ba9f",
+      "name": "Hull_306"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_ce54b90e-ac7a-46b9-812a-c5fcba6cb7a2.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2ec3907b-f2bd-4819-8b83-a0a4a267162a",
+      "name": "Hull_307"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_70413caa-819c-4c2b-b56f-611412634525.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "07b3d219-d08d-48cb-a7b5-af0d50209b82",
+      "name": "Hull_308"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_90ffb3a8-611f-41f3-b04e-7bd59fe7b027.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "bdef8e52-e26f-4969-9e2e-3d8a0480c501",
+      "name": "Hull_309"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_ec0d6424-3255-4412-a94a-d3926cd1390d.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "e3b3988e-7fc9-4071-baa8-eb84feb9ea40",
+      "name": "Hull_310"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_b641e264-6e7e-491e-a9f2-cd732ec51d3a.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2de9374b-1ca7-49c3-ab95-5f1dc1d1d284",
+      "name": "Hull_311"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_2604c54c-4db4-4174-adbc-b24f15fdbe21.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "c0d63d5b-6538-448c-9038-10487de079e9",
+      "name": "Hull_312"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_fcf533ab-749e-40a5-b0a8-dbe6af455ec9.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0c21bac5-7424-4d67-b11b-59121eb87654",
+      "name": "Hull_313"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_2121a391-6c78-4c06-8421-932d11039f29.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f9eed495-573b-4703-b11b-0f6780374a35",
+      "name": "Hull_314"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_36a525ac-466f-4475-8c7c-f568f4df5faf.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "15bf5b05-6411-4441-8c19-3504a6a29c50",
+      "name": "Hull_315"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_dee5aa79-526d-4fce-abc0-67c534cb292a.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0945f20e-474f-44fd-9e25-e07cd570397f",
+      "name": "Hull_316"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_1db0639e-0efd-49cb-a472-3b2b8d5543a3.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "07041c6b-ef66-4a65-b509-e1730179c75b",
+      "name": "Hull_317"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_1130e6f7-62ed-4dcd-afbc-607df1b964c9.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f403d6c1-633f-4307-a90d-b5c25ab4becd",
+      "name": "Hull_318"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_b79f3eda-513f-4070-a9c4-f597960f610f.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "0b07173a-335c-4e50-ab39-bdba97e14dab",
+      "name": "Hull_319"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_e683e5ba-f98f-4080-8138-85fd177ba3d8.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "ebf52e54-6cd9-451c-82f1-87011dab49e2",
+      "name": "Hull_320"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_34cfbe4c-5bed-476c-92a7-4a940c68e4e2.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "82127f2d-51fa-4355-9b22-9246041de4ed",
+      "name": "Hull_321"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_2b15e574-b194-4a96-a8d6-098044da9d85.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "3bf76d51-24b1-4089-b5a3-13191a8d17e8",
+      "name": "Hull_322"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_0f4c1195-0b1f-4d92-8e41-a299b2614414.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "71f90edd-b8ea-4427-8b33-1ee602f660ff",
+      "name": "Hull_323"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_108f1c42-cfdb-424f-a153-d42b9dd0eaf4.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "7293817b-fe12-419b-9b24-e7f50b74a03f",
+      "name": "Hull_324"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_73dc01d0-7eb9-4bbe-857b-df31c82610dd.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "97739840-ca08-4724-8c35-e6d615d397f2",
+      "name": "Hull_325"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_558139b7-30ed-4e51-8905-4d7ffb5a12c8.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "baa29ba8-1b5a-4a71-aade-c38611bff1a3",
+      "name": "Hull_326"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_771e7fdc-5cde-4050-abe0-c59ed2f3b1ad.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "e6d0787c-a75f-455b-9866-876e68ff2132",
+      "name": "Hull_327"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_49e204ce-e46b-4530-9519-47055a8f436e.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "038a5fe0-a637-4eee-8d1e-d9b979eb8f7d",
+      "name": "Hull_328"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_18282d00-4075-4877-809d-703812811a35.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "7d89963c-38b3-4192-95f0-07ae28f9ef9a",
+      "name": "Hull_329"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_df6f653c-9949-48a2-a66a-3033b469eabf.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "23a121d7-918d-46f8-b790-b40e86e34dee",
+      "name": "Hull_330"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_e45aafad-6021-4e13-a94a-ddc7fe7a0193.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "763c58ab-47f9-4dd3-8d1f-f1d329364302",
+      "name": "Hull_331"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_5ce9ce50-0375-48b5-9af1-26f701dc3ded.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "b27ab30f-0ecf-4a6a-8a91-43f8d110baa6",
+      "name": "Hull_332"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_56f7c96f-8e5e-41e0-909e-b919c6d0fd36.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "31e26686-2092-441f-b39a-7751a69b9b64",
+      "name": "Hull_333"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_b546c2df-65e3-4257-af82-700ebefe7152.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "2c906e01-3ee6-4cf9-aaec-fb635a80f62a",
+      "name": "Hull_334"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\Hull_4f3c63f8-dca4-4519-a9ff-f8afb5216cd8.glb",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "b55b14f5-9e4d-4763-8ba0-f4465cd132ca",
+      "name": "Hull_335"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\003_People\\Hand_Left.fbx",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "f6cfc6e9-4cea-43d8-95a3-83734947f659",
+      "name": "Hand_Left_338"
+    },
+    {
+      "primitiveType": "ModelFile",
+      "primitivePath": "<MAQUETTEOBJECT>\\003_People\\Hand_Right.fbx",
+      "assetLoadOption": "Maquette",
+      "primitiveBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "guid": "5d043df4-09c0-45a0-bca7-d86383236e90",
+      "name": "Hand_Right_339"
+    }
+  ],
+  "version": "21",
+  "fileType": "Primitives",
+  "releaseVersion": "2020.3.9.0.2117\r\n"
+}

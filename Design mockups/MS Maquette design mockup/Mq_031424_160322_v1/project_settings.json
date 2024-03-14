@@ -1,0 +1,353 @@
+{
+  "colorSettings": {
+    "CurrentColor": {
+      "r": 0.9594999,
+      "g": 0.9999952,
+      "b": 0.0941097662,
+      "a": 1.0
+    },
+    "CustomColors": [
+      {
+        "IsUsed": true,
+        "ColorValue": {
+          "r": 0.9594999,
+          "g": 0.9999952,
+          "b": 0.09410979,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": true,
+        "ColorValue": {
+          "r": 0.9594999,
+          "g": 0.9999952,
+          "b": 0.0941097662,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": true,
+        "ColorValue": {
+          "r": 0.09411148,
+          "g": 0.86405015,
+          "b": 0.999995947,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      },
+      {
+        "IsUsed": false,
+        "ColorValue": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        }
+      }
+    ]
+  },
+  "materialSettings": {
+    "CurrentPinnedMaterialIndex": 2,
+    "PinnedMaterials": [
+      {
+        "MaterialName": "Lit"
+      },
+      {
+        "MaterialName": "Unlit"
+      },
+      {
+        "MaterialName": "Lit"
+      }
+    ]
+  },
+  "version": "21",
+  "fileType": "ProjectSettings",
+  "releaseVersion": "2020.3.9.0.2117\r\n"
+}

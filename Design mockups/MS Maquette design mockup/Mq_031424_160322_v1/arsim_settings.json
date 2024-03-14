@@ -1,0 +1,13 @@
+{
+  "arSimulationOn": false,
+  "arEnvironmentOn": false,
+  "arOcclusionOn": false,
+  "arEnvironmentName": "Exhibition Room",
+  "arHorizontalFOV": 45.0,
+  "arVerticalFOV": 29.9999981,
+  "arEnvironmentBrightness": 0.3,
+  "arHologramBrightness": 1.0,
+  "version": "21",
+  "fileType": "ARSimSettings",
+  "releaseVersion": "2020.3.9.0.2117\r\n"
+}
