@@ -15,8 +15,7 @@ module.exports = merge(common, {
     compress: true,
     hot: true,
     open: true,
-    host: '192.168.68.59',
-    //host: '0.0.0.0', // Allow connections from other devices on the network
+    host: '0.0.0.0', // Allow connections from other devices on the network
     https: true // enable when HTTPS is needed (like in WebXR)
   },
 });
