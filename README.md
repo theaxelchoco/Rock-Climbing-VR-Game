@@ -11,6 +11,11 @@ Detailed explanation of this code can be found in the tutorial video available o
 5. Simple teleportation
 6. Snap turn
 
+## Open Sourced Models
+https://www.cgtrader.com/items/3047766/download-page
+https://www.cgtrader.com/free-3d-models/exterior/landscape/desert-rock-cluster-02
+
+
 ## License
 
 This codebase is adapted from code developed by E.S. Rosenberg, and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -33,6 +33,7 @@ import { LinesMesh } from "@babylonjs/core/Meshes/linesMesh";
 import { MeshBuilder, Ray } from "@babylonjs/core";
 import { SceneLoader } from "@babylonjs/core/Loading/sceneLoader";
 import { Skeleton } from "@babylonjs/core/Bones/skeleton";
+import { Texture } from "@babylonjs/core/Materials/Textures/texture";
 
 enum LocomotionMode {
     viewDirected,
@@ -203,13 +204,84 @@ class Game {
             // select what meshes are considered "floor" by the teleportation mechanic
 
             worldTask.loadedMeshes.forEach((mesh) => {
+                //Ground Floor
                 if (mesh.name.startsWith("Plane")) {
+                    var groundTexture = new Texture ("assets/textures/grass.png", this.scene);
+                    groundTexture.vScale = 100;
+                    groundTexture.uScale = 100;
+            
+                    var groundMaterial = new StandardMaterial ("groundMaterial", this.scene);
+                    groundMaterial.diffuseTexture = groundTexture;
+                    mesh.material = groundMaterial;
+
+                    
                     this.groundMeshes.push(mesh);
+
+                //Rock Clusters around the map
                 } else if (mesh.name.startsWith("Rocks")) {
+                    var texture = new Texture ("assets/textures/rockCluster.png", this.scene);
+                    texture.vScale = 1;
+                    texture.uScale = 1;
+            
+                    var material = new StandardMaterial ("wallMat", this.scene);
+                    material.diffuseTexture = texture;
+                    mesh.material = material;
+
                     mesh.scaling = new Vector3(.2, .2, .2);
+
+                //Small grass shrubs
                 } else if (mesh.name.startsWith("Shrub")) {
+                    var texture = new Texture ("assets/textures/shrub.png", this.scene);
+                    texture.vScale = 100;
+                    texture.uScale = 100;
+            
+                    var material = new StandardMaterial ("signMat", this.scene);
+                    material.diffuseTexture = texture;
+                    mesh.material = material;
+
                     var bushSize = .2
                     mesh.scaling = new Vector3(bushSize, bushSize, bushSize);
+
+                //Climbing wall
+                } else if (mesh.name.startsWith("Cylinder")) {
+                    var texture = new Texture ("assets/textures/rock.png", this.scene);
+                    texture.vScale = 150;
+                    texture.uScale = 150;
+            
+                    var material = new StandardMaterial ("wallMat", this.scene);
+                    material.diffuseTexture = texture;
+                    mesh.material = material;
+
+                //Miscellaneous bushes
+                } else if (mesh.name.startsWith("Bush")) {
+                    var texture = new Texture ("assets/textures/bush.png", this.scene);
+                    texture.vScale = 100;
+                    texture.uScale = 100;
+            
+                    var material = new StandardMaterial ("bushMat", this.scene);
+                    material.diffuseTexture = texture;
+                    mesh.material = material;
+
+                //Pegs on the wall
+                } else if (mesh.name.startsWith("Cube")) {
+                    var texture = new Texture ("assets/textures/peg.png", this.scene);
+                    texture.vScale = 100;
+                    texture.uScale = 100;
+            
+                    var material = new StandardMaterial ("pegMat", this.scene);
+                    material.diffuseTexture = texture;
+                    mesh.material = material;
+
+                //Wooden Signs
+                } else if (mesh.name.startsWith("Sign")) {
+                    var texture = new Texture ("assets/textures/sign.png", this.scene);
+                    texture.vScale = 100;
+                    texture.uScale = 100;
+            
+                    var material = new StandardMaterial ("signMat", this.scene);
+                    material.diffuseTexture = texture;
+                    mesh.material = material;
+
                 }
             });
 
