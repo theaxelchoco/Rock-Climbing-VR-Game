@@ -1,7 +1,7 @@
 {
-    "name": "Tutorial-5",
+    "name": "Group 13 Project",
     "version": "1.0.0",
-    "description": "Tutorial 5, CS 4262",
+    "description": "Group 13 Project",
     "main": "index.ts",
     "dependencies": {
         "@babylonjs/core": "^6.39",
