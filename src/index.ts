@@ -163,42 +163,28 @@ class Game {
         var assetsManager = new AssetsManager (this.scene);
 
         // game world
-        var worldTask = assetsManager.addMeshTask ("world task", "", "assets/models/", "world.glb");
+        var worldTask = assetsManager.addMeshTask ("world task", "", "assets/models/", "FullWorkspace.glb");
         worldTask.onSuccess = (task) => {
             worldTask.loadedMeshes[0].name = "world";
             worldTask.loadedMeshes[0].position = new Vector3(0, 0.3, 0);
             worldTask.loadedMeshes[0].rotation = Vector3.Zero();
-            worldTask.loadedMeshes[0].scaling = Vector3.One();
+           // worldTask.loadedMeshes[0].scaling = Vector3.One();
 
             // select what meshes are considered "floor" by the teleportation mechanic
+           
             worldTask.loadedMeshes.forEach ((mesh) => {
-                if (mesh.name.startsWith ("rpgpp_lt_terrain")) {
+                if (mesh.name.startsWith ("Plane")) {
                     this.groundMeshes.push (mesh);
+                } else if (mesh.name.startsWith("Rocks")) {
+                    mesh.scaling = new Vector3(.2,.2,.2);
+                } else if (mesh.name.startsWith("Shrub")) {
+                    var bushSize = .2
+                    mesh.scaling = new Vector3(bushSize, bushSize, bushSize);
                 }
             });
             
         }
-
-        // the fox
-        var foxTask = assetsManager.addMeshTask ("fox task", "fox1", "assets/models/", "fox.babylon");
-        foxTask.onSuccess = (task) => {
-            var foxMesh = foxTask.loadedMeshes[0];
-            foxMesh.scaling = new Vector3 (.015, .015, .015);
-            foxMesh.position = new Vector3 (4, 0 , 0);
-        }
-
-        // the dragonite
-        var dniteTask = assetsManager.addMeshTask ("dnite task", "", "assets/models/dragonite/", "dragonite.obj");
-        dniteTask.onSuccess = (task) => {
-            var dMesh = dniteTask.loadedMeshes[0];
-            dMesh.scaling = new Vector3 (20,20,20);
-            dMesh.rotation = new Vector3 (0, Math.PI, 0);
-            dMesh.position = new Vector3 (0, 0, 0);
-            var dragoniteMaterial = <StandardMaterial> dMesh.material;
-            dragoniteMaterial.emissiveColor = new Color3 (.5, .5, .5);
-            dMesh.name = "dragonite";
-        }
-
+        
         // will display a loading screen while loading
         assetsManager.load ();
 
