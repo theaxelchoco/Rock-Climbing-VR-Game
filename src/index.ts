@@ -11,6 +11,7 @@ import { Quaternion, Vector3 } from "@babylonjs/core/Maths/math.vector";
 import { Color3 } from "@babylonjs/core/Maths/math.color";
 import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial";
 import { Scene } from "@babylonjs/core/scene";
+import { TransformNode } from "@babylonjs/core/Meshes/transformNode";
 
 import "@babylonjs/inspector"
 import "@babylonjs/core/Helpers/sceneHelpers"
@@ -30,7 +31,7 @@ import "@babylonjs/core/Physics/physicsEngineComponent";
 import { WebXRCamera } from "@babylonjs/core/XR/webXRCamera";
 import { Axis } from "@babylonjs/core/Maths/math.axis";
 import { LinesMesh } from "@babylonjs/core/Meshes/linesMesh";
-import { MeshBuilder, Ray } from "@babylonjs/core";
+import { AnimationGroup, MeshBuilder, Ray } from "@babylonjs/core";
 import { SceneLoader } from "@babylonjs/core/Loading/sceneLoader";
 import { Skeleton } from "@babylonjs/core/Bones/skeleton";
 import { Texture } from "@babylonjs/core/Materials/Textures/texture";
@@ -44,6 +45,15 @@ enum LocomotionMode {
 enum RotationMode {
     smoothRotation,
     snapRotation
+}
+
+declare module "@babylonjs/core/XR/webXRInputSource" {
+    interface WebXRInputSource {
+        userData?: {
+            isClimbing?: boolean;
+            initialPosition?: Vector3 | null;
+        };
+    }
 }
 
 class Game {
@@ -71,6 +81,8 @@ class Game {
     private rightHandMesh: AbstractMesh | null = null;
     private playerCollider: Mesh | null = null;
 
+    private leftHandAnimationGroups: AnimationGroup[] = [];
+    private rightHandAnimationGroups: AnimationGroup[] = [];
 
     constructor() {
         this.canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;
@@ -95,7 +107,7 @@ class Game {
     private async createScene(): Promise<void> {
 
         // create and position a first-person camera (non-mesh)
-        var camera = new UniversalCamera("camera1", new Vector3(0, 1.6, 0), this.scene);
+        var camera = new UniversalCamera("camera1", new Vector3(0, 2.5 * 1.6, 0), this.scene);
         camera.attachControl(this.canvas, true);
 
         // ambient light to illuminate the scene
@@ -126,8 +138,18 @@ class Game {
             }
         });
 
-        // get a reference to the xr camera
         this.xrCamera = xrHelper.baseExperience.camera;
+
+        const cameraParent = new TransformNode("cameraParent", this.scene);
+        cameraParent.position = new Vector3(0, 0, 0); // Correct use of Vector3
+
+        if (this.xrCamera.parent) {
+            (this.xrCamera.parent as TransformNode).position.y += 0.5; 
+        } else {
+            const cameraParent = new TransformNode("cameraParent", this.scene);
+            cameraParent.position = new Vector3(0, 2.1, 0);
+            this.xrCamera.parent = cameraParent;
+        }
 
         //remove default teleportation and pointer behaviour
         xrHelper.teleportation.dispose();
@@ -206,79 +228,80 @@ class Game {
             worldTask.loadedMeshes.forEach((mesh) => {
                 //Ground Floor
                 if (mesh.name.startsWith("Plane")) {
-                    var groundTexture = new Texture ("assets/textures/grass.png", this.scene);
+                    var groundTexture = new Texture("assets/textures/grass.png", this.scene);
                     groundTexture.vScale = 100;
                     groundTexture.uScale = 100;
-            
-                    var groundMaterial = new StandardMaterial ("groundMaterial", this.scene);
+
+                    var groundMaterial = new StandardMaterial("groundMaterial", this.scene);
                     groundMaterial.diffuseTexture = groundTexture;
                     mesh.material = groundMaterial;
 
-                    
+
                     this.groundMeshes.push(mesh);
 
-                //Rock Clusters around the map
+                    //Rock Clusters around the map
                 } else if (mesh.name.startsWith("Rocks")) {
-                    var texture = new Texture ("assets/textures/rockCluster.png", this.scene);
+                    var texture = new Texture("assets/textures/rockCluster.png", this.scene);
                     texture.vScale = 1;
                     texture.uScale = 1;
-            
-                    var material = new StandardMaterial ("wallMat", this.scene);
+
+                    var material = new StandardMaterial("wallMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
 
                     mesh.scaling = new Vector3(.2, .2, .2);
 
-                //Small grass shrubs
+                    //Small grass shrubs
                 } else if (mesh.name.startsWith("Shrub")) {
-                    var texture = new Texture ("assets/textures/shrub.png", this.scene);
+                    var texture = new Texture("assets/textures/shrub.png", this.scene);
                     texture.vScale = 100;
                     texture.uScale = 100;
-            
-                    var material = new StandardMaterial ("signMat", this.scene);
+
+                    var material = new StandardMaterial("signMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
 
                     var bushSize = .2
                     mesh.scaling = new Vector3(bushSize, bushSize, bushSize);
 
-                //Climbing wall
+                    //Climbing wall
                 } else if (mesh.name.startsWith("Cylinder")) {
-                    var texture = new Texture ("assets/textures/rock.png", this.scene);
+                    var texture = new Texture("assets/textures/rock.png", this.scene);
                     texture.vScale = 150;
                     texture.uScale = 150;
-            
-                    var material = new StandardMaterial ("wallMat", this.scene);
+
+                    var material = new StandardMaterial("wallMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
 
-                //Miscellaneous bushes
+                    //Miscellaneous bushes
                 } else if (mesh.name.startsWith("Bush")) {
-                    var texture = new Texture ("assets/textures/bush.png", this.scene);
+                    var texture = new Texture("assets/textures/bush.png", this.scene);
                     texture.vScale = 100;
                     texture.uScale = 100;
-            
-                    var material = new StandardMaterial ("bushMat", this.scene);
+
+                    var material = new StandardMaterial("bushMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
 
-                //Pegs on the wall
+                    //Pegs on the wall
                 } else if (mesh.name.startsWith("Cube")) {
-                    var texture = new Texture ("assets/textures/peg.png", this.scene);
+                    this.grabbableObjects.push(mesh);
+                    var texture = new Texture("assets/textures/peg.png", this.scene);
                     texture.vScale = 100;
                     texture.uScale = 100;
-            
-                    var material = new StandardMaterial ("pegMat", this.scene);
+
+                    var material = new StandardMaterial("pegMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
 
-                //Wooden Signs
+                    //Wooden Signs
                 } else if (mesh.name.startsWith("Sign")) {
-                    var texture = new Texture ("assets/textures/sign.png", this.scene);
+                    var texture = new Texture("assets/textures/sign.png", this.scene);
                     texture.vScale = 100;
                     texture.uScale = 100;
-            
-                    var material = new StandardMaterial ("signMat", this.scene);
+
+                    var material = new StandardMaterial("signMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
 
@@ -312,24 +335,49 @@ class Game {
 
     }
 
+    private initiateClimbing(controller: WebXRInputSource, grabbedObject: AbstractMesh): void {
+        if (controller && grabbedObject) {
+            controller.userData = controller.userData || {};
+            controller.userData.isClimbing = true;
+            controller.userData.initialPosition = controller.pointer.position.clone();
+            console.log("Climbing initiated with: ", grabbedObject.name);
+        }
+    }
+
+    private processClimbingMovement(controller: WebXRInputSource): void {
+        if (controller.userData?.isClimbing && controller.userData.initialPosition) {
+            const deltaPos = controller.pointer.position.subtract(controller.userData.initialPosition);
+            this.xrCamera!.position.subtractInPlace(deltaPos);
+            controller.userData.initialPosition = controller.pointer.position.clone();
+        }
+    }
+
+
     private onControllerAdded(controller: WebXRInputSource): void {
+        if (!controller.userData) {
+            controller.userData = {
+                isClimbing: false,
+                initialPosition: null
+            };
+        }
         if (controller.uniqueId.endsWith("left")) {
-            SceneLoader.ImportMesh("", "assets/models/Hands with animation/", "scene.gltf", this.scene, (meshes, particleSystems, skeletons) => {
+            SceneLoader.ImportMesh("", "assets/models/Hands with animation/", "scene.gltf", this.scene, (meshes, particleSystems, skeletons, animationGroups) => {
                 this.leftHandMesh = meshes[0];
-                const handScale = 0.001; // Adjust this value as needed to get the desired size
+                const handScale = 0.001;
                 this.leftHandMesh.scaling = new Vector3(handScale, handScale, handScale);
                 this.leftHandMesh.scaling.x *= -1;
                 this.leftHandMesh.parent = controller.pointer;
                 this.leftHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, Math.PI / 2);
                 this.leftHandMesh.isVisible = true;
-                this.scene.animationGroups.forEach(group => {
-                    group.stop();
+                this.scene.animationGroups.forEach((group) => {
+                    group.stop(); 
                 });
+                this.leftHandAnimationGroups = [animationGroups[0]];
             });
         } else if (controller.uniqueId.endsWith("right")) {
-            SceneLoader.ImportMesh("", "assets/models/Hands with animation/", "scene.gltf", this.scene, (meshes, particleSystems, skeletons) => {
+            SceneLoader.ImportMesh("", "assets/models/Hands with animation/", "scene.gltf", this.scene, (meshes, particleSystems, skeletons, animationGroups) => {
                 this.rightHandMesh = meshes[0];
-                const handScale = 0.001; // Adjust this value as needed to get the desired size
+                const handScale = 0.001; 
                 this.rightHandMesh.scaling = new Vector3(handScale, handScale, handScale);
                 this.rightHandMesh.parent = controller.pointer;
                 this.rightHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, -Math.PI / 2);
@@ -337,6 +385,8 @@ class Game {
                 this.scene.animationGroups.forEach(group => {
                     group.stop();
                 });
+                this.rightHandAnimationGroups = [animationGroups[0]];
+
             });
         }
     }
@@ -374,6 +424,17 @@ class Game {
     // this update code will be executed once per frame before rendering the scene
     private update(): void {
         this.processControllerInput();
+        if (this.leftController && this.leftController.userData) {
+            if (this.leftController?.userData.isClimbing) {
+                this.processClimbingMovement(this.leftController);
+            }
+        }
+        if (this.rightController && this.rightController.userData) {
+
+            if (this.rightController?.userData.isClimbing) {
+                this.processClimbingMovement(this.rightController);
+            }
+        }
     }
 
     // handle any changes in controller interaction 
@@ -410,93 +471,78 @@ class Game {
         }
     }
 
+    private findGrabbableObject(controller: WebXRInputSource): AbstractMesh | null {
+        for (let obj of this.grabbableObjects) {
+            if (controller.grip && controller.grip.intersectsMesh(obj, true)) {
+                return obj;
+            }
+        }
+        return null;
+    }
+
+    private stopClimbing(controller: WebXRInputSource): void {
+        if (controller.userData?.isClimbing) {
+            controller.userData.isClimbing = false;
+            controller.userData.initialPosition = null;
+            this.releaseGrabbedObject(controller);
+        }
+    }
+
+    private releaseGrabbedObject(controller: WebXRInputSource): void {
+        if (controller === this.leftController && this.leftGrabbedObject && this.leftHandMesh) {
+            this.leftGrabbedObject.setParent(null);
+            this.leftGrabbedObject = null;
+        } else if (controller === this.rightController && this.rightGrabbedObject && this.rightHandMesh) {
+            this.rightGrabbedObject.setParent(null);
+            this.rightGrabbedObject = null;
+
+        }
+    }
+
     private onLeftSqueeze(component?: WebXRControllerComponent) {
         if (component?.changes.pressed) {
             if (component?.pressed) {
                 Logger.Log("left squeeze pressed");
-                this.scene.animationGroups.forEach(group => {
-                    if (group.targetedAnimations[0].target === this.leftHandMesh) {
-                        group.goToFrame(0); // Assuming 0 is the start of the closing animation
-                        group.play(false); // Play animation once without looping
-                        group.onAnimationEndObservable.addOnce(() => {
-                            group.goToFrame(group.to); // Ensure animation stops at the end
-                        });
-                    }
-                });
-                // are we intersecting an object that can be grasped?
-                for (var i = 0; i < this.grabbableObjects.length && !this.leftGrabbedObject; i++) {
-                    if (this.leftController!.grip!.intersectsMesh(this.grabbableObjects[i], true)) {
-                        this.leftGrabbedObject = this.grabbableObjects[i];
-                        this.leftGrabbedObject.physicsImpostor?.sleep();
-                        this.leftGrabbedObject.setParent(this.leftController!.grip!);
+                if (this.leftController) {
+                    const hitResult = this.findGrabbableObject(this.leftController);
+                    if (hitResult) {
+                        this.leftGrabbedObject = hitResult;
+                        this.initiateClimbing(this.leftController, this.leftGrabbedObject);
                     }
                 }
 
             } else {
                 Logger.Log("left squeeze released");
-                this.scene.animationGroups.forEach(group => {
-                    if (group.targetedAnimations[0].target === this.leftHandMesh) {
-                        group.goToFrame(group.to); // Assuming 'to' is the frame where the hand is fully closed
-                        group.play(false); // Play animation once without looping
-                        group.onAnimationEndObservable.addOnce(() => {
-                            group.goToFrame(0); // Ensure animation stops at the open hand pose
-                        });
-                    }
-                });
-                // release the grasped object (if any)
-                if (this.leftGrabbedObject) {
-                    this.leftGrabbedObject.setParent(null);
-                    this.leftGrabbedObject.physicsImpostor?.wakeUp();
-                    this.leftGrabbedObject = null;
+                if (this.leftController) {
+                    this.stopClimbing(this.leftController);
                 }
+
             }
 
         }
     }
-    // process right squeeze button changes
     private onRightSqueeze(component?: WebXRControllerComponent) {
         if (component?.changes.pressed) {
             if (component?.pressed) {
                 Logger.Log("right squeeze pressed");
-                this.scene.animationGroups.forEach(group => {
-                    if (group.targetedAnimations[0].target === this.rightHandMesh) {
-                        group.goToFrame(0); // Assuming 0 is the start of the closing animation
-                        group.play(false); // Play animation once without looping
-                        group.onAnimationEndObservable.addOnce(() => {
-                            group.goToFrame(group.to); // Ensure animation stops at the end
-                        });
-                    }
-                });
-                // are we intersecting an object that can be grasped?
-                for (var i = 0; i < this.grabbableObjects.length && !this.rightGrabbedObject; i++) {
-                    if (this.rightController!.grip!.intersectsMesh(this.grabbableObjects[i], true)) {
-                        this.rightGrabbedObject = this.grabbableObjects[i];
-                        this.rightGrabbedObject.physicsImpostor?.sleep();
-                        this.rightGrabbedObject.setParent(this.rightController!.grip!);
+                if (this.rightController) {
+                    const hitResult = this.findGrabbableObject(this.rightController);
+                    if (hitResult) {
+                        this.rightGrabbedObject = hitResult;
+                        this.initiateClimbing(this.rightController, this.rightGrabbedObject);
                     }
                 }
 
             } else {
                 Logger.Log("right squeeze released");
-                this.scene.animationGroups.forEach(group => {
-                    if (group.targetedAnimations[0].target === this.rightHandMesh) {
-                        group.goToFrame(group.to); // Assuming 'to' is the frame where the hand is fully closed
-                        group.play(false); // Play animation once without looping
-                        group.onAnimationEndObservable.addOnce(() => {
-                            group.goToFrame(0); // Ensure animation stops at the open hand pose
-                        });
-                    }
-                });
-                // release the grasped object (if any)
-                if (this.rightGrabbedObject) {
-                    this.rightGrabbedObject.setParent(null);
-                    this.rightGrabbedObject.physicsImpostor?.wakeUp();
-                    this.rightGrabbedObject = null;
+                if (this.rightController) {
+                    this.stopClimbing(this.rightController);
                 }
             }
-
         }
     }
+
+
 
     private onRightA(component?: WebXRControllerComponent) {
         if (component?.changes.pressed?.current) {
@@ -565,11 +611,9 @@ class Game {
         const pickInfo = this.scene.pickWithRay(ray, (mesh) => this.groundMeshes.includes(mesh));
         if (pickInfo && pickInfo.hit) {
             if (pickInfo.pickedPoint) {
-                // Ensure the player's height above the ground is maintained
                 return pickInfo.pickedPoint.y + 1.6 / 2; // Adjust the offset based on player's collider size
             }
         }
-        // If ground height cannot be determined, return a default value
         return 0;
     }
     private baseRotationY = 0; // Base rotation around Y-axis, independent of head tilt
@@ -579,7 +623,7 @@ class Game {
             if (component && component.changes.axes) {
                 const deltaTime = this.engine.getDeltaTime() / 1000;
                 if (this.rotationMode === RotationMode.smoothRotation) {
-                    let smoothRotationIncrement = component.axes.x * deltaTime * 0.8;
+                    let smoothRotationIncrement = component.axes.x * deltaTime * 2;
                     let currentRotation = this.xrCamera.rotationQuaternion.toEulerAngles();
                     this.xrCamera.rotationQuaternion = Quaternion.FromEulerAngles(currentRotation.x, currentRotation.y + smoothRotationIncrement, currentRotation.z);
                 } else if (this.rotationMode === RotationMode.snapRotation) {
