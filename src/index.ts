@@ -52,6 +52,7 @@ declare module "@babylonjs/core/XR/webXRInputSource" {
         userData?: {
             isClimbing?: boolean;
             initialPosition?: Vector3 | null;
+            grabbedPoint?: Vector3 | null; // Add this line
         };
     }
 }
@@ -80,6 +81,7 @@ class Game {
     private leftHandMesh: AbstractMesh | null = null;
     private rightHandMesh: AbstractMesh | null = null;
     private playerCollider: Mesh | null = null;
+    private movementTarget: Vector3 | null = null;
 
     private leftHandAnimationGroups: AnimationGroup[] = [];
     private rightHandAnimationGroups: AnimationGroup[] = [];
@@ -144,10 +146,10 @@ class Game {
         cameraParent.position = new Vector3(0, 0, 0); // Correct use of Vector3
 
         if (this.xrCamera.parent) {
-            (this.xrCamera.parent as TransformNode).position.y += 0.5; 
+            (this.xrCamera.parent as TransformNode).position.y += 0.2;
         } else {
             const cameraParent = new TransformNode("cameraParent", this.scene);
-            cameraParent.position = new Vector3(0, 2.1, 0);
+            cameraParent.position = new Vector3(0, 1.8, 0);
             this.xrCamera.parent = cameraParent;
         }
 
@@ -339,20 +341,36 @@ class Game {
         if (controller && grabbedObject) {
             controller.userData = controller.userData || {};
             controller.userData.isClimbing = true;
-            controller.userData.initialPosition = controller.pointer.position.clone();
+            controller.userData.grabbedPoint = grabbedObject.absolutePosition.clone();
+            controller.userData.initialPosition = controller.pointer.absolutePosition.clone();
             console.log("Climbing initiated with: ", grabbedObject.name);
+            
+            // Lock hand position visually
+            if (controller === this.leftController) {
+                this.leftHandMesh!.setParent(grabbedObject);
+            } else if (controller === this.rightController) {
+                this.rightHandMesh!.setParent(grabbedObject);
+            }
         }
     }
 
     private processClimbingMovement(controller: WebXRInputSource): void {
         if (controller.userData?.isClimbing && controller.userData.initialPosition) {
-            const deltaPos = controller.pointer.position.subtract(controller.userData.initialPosition);
-            this.xrCamera!.position.subtractInPlace(deltaPos);
-            controller.userData.initialPosition = controller.pointer.position.clone();
+            const currentPointerPosition = controller.pointer.absolutePosition;
+            const initialPointerPosition = controller.userData.initialPosition;
+    
+            let deltaPosition = initialPointerPosition.subtract(currentPointerPosition);
+    
+            const scale = 0.5; // Reduced scale for more controlled movement
+    
+            deltaPosition = deltaPosition.scale(scale);
+    
+            this.xrCamera!.position.addInPlace(deltaPosition);
+    
+            controller.userData.initialPosition = currentPointerPosition.clone();
         }
     }
-
-
+    
     private onControllerAdded(controller: WebXRInputSource): void {
         if (!controller.userData) {
             controller.userData = {
@@ -370,14 +388,14 @@ class Game {
                 this.leftHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, Math.PI / 2);
                 this.leftHandMesh.isVisible = true;
                 this.scene.animationGroups.forEach((group) => {
-                    group.stop(); 
+                    group.stop();
                 });
                 this.leftHandAnimationGroups = [animationGroups[0]];
             });
         } else if (controller.uniqueId.endsWith("right")) {
             SceneLoader.ImportMesh("", "assets/models/Hands with animation/", "scene.gltf", this.scene, (meshes, particleSystems, skeletons, animationGroups) => {
                 this.rightHandMesh = meshes[0];
-                const handScale = 0.001; 
+                const handScale = 0.001;
                 this.rightHandMesh.scaling = new Vector3(handScale, handScale, handScale);
                 this.rightHandMesh.parent = controller.pointer;
                 this.rightHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, -Math.PI / 2);
@@ -421,9 +439,32 @@ class Game {
         });
     }
 
+    private applyGravity(): void {
+        const gravity = -9.8 * this.engine.getDeltaTime() / 1000; // Adjust for frame time
+        this.xrCamera!.position.y += gravity;
+        // Ensure the camera doesn't go below the ground level
+        this.xrCamera!.position.y = Math.max(this.calculateGroundHeight(this.xrCamera!.position), this.xrCamera!.position.y);
+    }
+
     // this update code will be executed once per frame before rendering the scene
     private update(): void {
         this.processControllerInput();
+        let isClimbing = this.leftController?.userData?.isClimbing || this.rightController?.userData?.isClimbing;
+
+        if (!isClimbing) {
+            // Apply gravity
+            this.applyGravity();
+        }
+        if (this.movementTarget) {
+            // Interpolate towards the target position smoothly
+            this.xrCamera!.position = Vector3.Lerp(this.xrCamera!.position, this.movementTarget, 0.1);
+            // Optionally, clear the target when close enough to prevent endless chasing
+            if (Vector3.Distance(this.xrCamera!.position, this.movementTarget) < 0.01) {
+                this.movementTarget = null; // Reset the target
+            }
+            this.xrCamera!.position.y = this.calculateGroundHeight(this.xrCamera!.position);
+
+        }
         if (this.leftController && this.leftController.userData) {
             if (this.leftController?.userData.isClimbing) {
                 this.processClimbingMovement(this.leftController);
@@ -482,8 +523,27 @@ class Game {
 
     private stopClimbing(controller: WebXRInputSource): void {
         if (controller.userData?.isClimbing) {
+            console.log(`Stopping climbing for ${controller.uniqueId}`); // Debug log
+    
+            // Reset climbing state
             controller.userData.isClimbing = false;
             controller.userData.initialPosition = null;
+            controller.userData.grabbedPoint = null;
+    
+            // Detach hand mesh and reset transformations if necessary
+           // Detach hand mesh and reset transformations to align with controller
+           if (controller === this.leftController && this.leftHandMesh) {
+            this.leftHandMesh.setParent(controller.pointer);
+            // Reset position and rotation to match the controller exactly
+            this.leftHandMesh.position = Vector3.Zero(); // Reset position
+            this.leftHandMesh.scaling.x *= -1;
+            this.leftHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, Math.PI / 2); // Reset rotation as set initially
+        } else if (controller === this.rightController && this.rightHandMesh) {
+            this.rightHandMesh.setParent(controller.pointer);
+            // Reset position and rotation to match the controller exactly
+            this.rightHandMesh.position = Vector3.Zero(); // Reset position
+            this.rightHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, -Math.PI / 2); // Reset rotation as set initially
+        }
             this.releaseGrabbedObject(controller);
         }
     }
@@ -606,16 +666,17 @@ class Game {
             }
         }
     }
+
     private calculateGroundHeight(position: Vector3): number {
-        const ray = new Ray(position.add(new Vector3(0, 1, 0)), new Vector3(0, -1, 0));
+        const ray = new Ray(position.add(new Vector3(0, 2, 0)), Vector3.Down(), 10); // Cast ray downwards from a higher point
         const pickInfo = this.scene.pickWithRay(ray, (mesh) => this.groundMeshes.includes(mesh));
         if (pickInfo && pickInfo.hit) {
-            if (pickInfo.pickedPoint) {
-                return pickInfo.pickedPoint.y + 1.6 / 2; // Adjust the offset based on player's collider size
-            }
+            // Return the correct Y position plus an offset for the player's height
+            return pickInfo.pickedPoint!.y + 1.6 / 2; // Adjust for player height as necessary
         }
-        return 0;
+        return position.y; // Default to current Y position if ground is not found
     }
+
     private baseRotationY = 0; // Base rotation around Y-axis, independent of head tilt
 
     private onRightThumbstick(component?: WebXRControllerComponent) {
