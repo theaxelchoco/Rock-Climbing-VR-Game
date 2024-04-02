@@ -143,7 +143,7 @@ class Game {
         this.xrCamera = xrHelper.baseExperience.camera;
 
         const cameraParent = new TransformNode("cameraParent", this.scene);
-        cameraParent.position = new Vector3(0, 0, 0); // Correct use of Vector3
+        cameraParent.position = new Vector3(3, 0, 0); // Correct use of Vector3
 
         if (this.xrCamera.parent) {
             (this.xrCamera.parent as TransformNode).position.y += 0.2;
@@ -253,8 +253,7 @@ class Game {
 
                     mesh.scaling = new Vector3(.2, .2, .2);
 
-                    //Small grass shrubs
-                } else if (mesh.name.startsWith("Shrub")) {
+                }  else if (mesh.name.startsWith("Shrub")) {
                     var texture = new Texture("assets/textures/shrub.png", this.scene);
                     texture.vScale = 100;
                     texture.uScale = 100;
@@ -287,7 +286,7 @@ class Game {
                     mesh.material = material;
 
                     //Pegs on the wall
-                } else if (mesh.name.startsWith("Cube")) {
+                } else if (mesh.name.startsWith("Peg") || mesh.name.startsWith("Path_Peg")) {
                     this.grabbableObjects.push(mesh);
                     var texture = new Texture("assets/textures/peg.png", this.scene);
                     texture.vScale = 100;
