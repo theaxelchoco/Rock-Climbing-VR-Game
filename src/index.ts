@@ -86,6 +86,10 @@ class Game {
     private leftHandAnimationGroups: AnimationGroup[] = [];
     private rightHandAnimationGroups: AnimationGroup[] = [];
 
+    private isLeaping: boolean = false;
+    private leapVelocity: number = 0;
+    
+
     constructor() {
         this.canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;
         this.engine = new Engine(this.canvas, true);
@@ -439,11 +443,22 @@ class Game {
     }
 
     private applyGravity(): void {
-        const gravity = -9.8 * this.engine.getDeltaTime() / 1000; // Adjust for frame time
-        this.xrCamera!.position.y += gravity;
-        // Ensure the camera doesn't go below the ground level
-        this.xrCamera!.position.y = Math.max(this.calculateGroundHeight(this.xrCamera!.position), this.xrCamera!.position.y);
+        if (this.isLeaping) {
+            // Apply initial leap force if leaping
+            this.xrCamera!.position.y += this.leapVelocity * this.engine.getDeltaTime() / 1000;
+            this.leapVelocity -= 9.8 * this.engine.getDeltaTime() / 1000; // Apply gravity to leapVelocity
+            if (this.xrCamera!.position.y <= this.calculateGroundHeight(this.xrCamera!.position)) {
+                this.xrCamera!.position.y = this.calculateGroundHeight(this.xrCamera!.position);
+                this.isLeaping = false; // Reset leaping state upon landing
+            }
+        } else {
+            const gravity = -9.8 * this.engine.getDeltaTime() / 1000; // Normal gravity
+            this.xrCamera!.position.y += gravity;
+            // Ensure the camera doesn't go below the ground level
+            this.xrCamera!.position.y = Math.max(this.calculateGroundHeight(this.xrCamera!.position), this.xrCamera!.position.y);
+        }
     }
+    
 
     // this update code will be executed once per frame before rendering the scene
     private update(): void {
@@ -544,8 +559,20 @@ class Game {
             this.rightHandMesh.rotationQuaternion = Quaternion.FromEulerAngles(0, 0, -Math.PI / 2); // Reset rotation as set initially
         }
             this.releaseGrabbedObject(controller);
+            if (!this.leftController?.userData?.isClimbing && !this.rightController?.userData?.isClimbing && !this.isLeaping) {
+                this.startLeap();
+            }
         }
     }
+     
+    private startLeap(): void {
+        if (!this.isLeaping) { // Prevent initiating a new leap mid-air
+            this.isLeaping = true;
+            this.leapVelocity = 15; // Set initial upward velocity for the leap
+        }
+    }
+    
+    
 
     private releaseGrabbedObject(controller: WebXRInputSource): void {
         if (controller === this.leftController && this.leftGrabbedObject && this.leftHandMesh) {
