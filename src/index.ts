@@ -12,7 +12,7 @@ import { Color3 } from "@babylonjs/core/Maths/math.color";
 import { StandardMaterial } from "@babylonjs/core/Materials/standardMaterial";
 import { Scene } from "@babylonjs/core/scene";
 import { TransformNode } from "@babylonjs/core/Meshes/transformNode";
-
+import { HighlightLayer } from '@babylonjs/core/Layers/highlightLayer';
 import "@babylonjs/inspector"
 import "@babylonjs/core/Helpers/sceneHelpers"
 import { DirectionalLight } from "@babylonjs/core/Lights/directionalLight";
@@ -23,7 +23,6 @@ import { WebXRControllerComponent } from "@babylonjs/core/XR/motionController/we
 import { WebXRInputSource } from "@babylonjs/core/XR/webXRInputSource";
 import { Mesh } from "@babylonjs/core/Meshes/mesh";
 import { AbstractMesh } from "@babylonjs/core/Meshes/abstractMesh";
-
 import { PhysicsImpostor } from "@babylonjs/core/Physics/physicsImpostor";
 import * as Cannon from "cannon";
 import { CannonJSPlugin } from "@babylonjs/core/Physics/Plugins/cannonJSPlugin";
@@ -52,7 +51,9 @@ declare module "@babylonjs/core/XR/webXRInputSource" {
         userData?: {
             isClimbing?: boolean;
             initialPosition?: Vector3 | null;
-            grabbedPoint?: Vector3 | null; // Add this line
+            lastPositions?: Vector3[]; // Added for tracking movement speed
+            lastPositionTimes?: number[]; // Timestamps for each position to calculate speed
+            grabbedPoint?: Vector3 | null;
         };
     }
 }
@@ -88,8 +89,9 @@ class Game {
 
     private isLeaping: boolean = false;
     private leapVelocity: number = 0;
+    private useHeadDirectionForLeap: boolean = true;
+    private updateLoop?: NodeJS.Timeout;
     
-
     constructor() {
         this.canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;
         this.engine = new Engine(this.canvas, true);
@@ -220,6 +222,7 @@ class Game {
 
         // load assets        
         var assetsManager = new AssetsManager(this.scene);
+        const highlightLayer = new HighlightLayer("hl1", this.scene);
 
         // game world
         var worldTask = assetsManager.addMeshTask("world task", "", "assets/models/", "FullWorkspace.glb");
@@ -299,6 +302,11 @@ class Game {
                     var material = new StandardMaterial("pegMat", this.scene);
                     material.diffuseTexture = texture;
                     mesh.material = material;
+                    if (mesh.name.startsWith("Path_Peg")) {
+                        if (mesh instanceof Mesh){
+                        highlightLayer.addMesh(mesh, Color3.Green());
+                        }
+                    }
 
                     //Wooden Signs
                 } else if (mesh.name.startsWith("Sign")) {
@@ -339,6 +347,45 @@ class Game {
         };
 
     }
+
+    private updateControllerTracking(controller: WebXRInputSource): void {
+        if (!controller.pointer) return;
+    
+        const maxTrackLength = 5; // Keep track of the last 5 positions
+        if (!controller.userData) {
+            controller.userData = {};
+        }
+        if (!controller.userData.lastPositions || !controller.userData.lastPositionTimes) {
+            controller.userData.lastPositions = [];
+            controller.userData.lastPositionTimes = [];
+        }
+    
+        // Update positions
+        controller.userData.lastPositions.push(controller.pointer.absolutePosition.clone());
+        controller.userData.lastPositionTimes.push(Date.now());
+    
+        // Ensure we only track the last few movements
+        while (controller.userData.lastPositions.length > maxTrackLength) {
+            controller.userData.lastPositions.shift();
+            controller.userData.lastPositionTimes.shift();
+        }
+    }
+    
+    private calculateControllerSpeed(controller: WebXRInputSource): number {
+        if (!controller.userData?.lastPositions || controller.userData.lastPositions.length < 2) {
+            return 0;
+        }
+        let totalDistance = 0;
+        let totalTime = 0;
+        for (let i = 1; i < controller.userData.lastPositions.length; i++) {
+            totalDistance += Vector3.Distance(controller.userData.lastPositions[i-1], controller.userData.lastPositions[i]);
+            totalTime += (controller.userData.lastPositionTimes![i] - controller.userData.lastPositionTimes![i-1]) / 1000; // Convert ms to seconds
+        }
+        if (totalTime === 0) return 0; // Prevent division by zero
+        let averageSpeed = totalDistance / totalTime;
+        return averageSpeed;
+    }
+    
 
     private initiateClimbing(controller: WebXRInputSource, grabbedObject: AbstractMesh): void {
         if (controller && grabbedObject) {
@@ -443,15 +490,7 @@ class Game {
     }
 
     private applyGravity(): void {
-        if (this.isLeaping) {
-            // Apply initial leap force if leaping
-            this.xrCamera!.position.y += this.leapVelocity * this.engine.getDeltaTime() / 1000;
-            this.leapVelocity -= 9.8 * this.engine.getDeltaTime() / 1000; // Apply gravity to leapVelocity
-            if (this.xrCamera!.position.y <= this.calculateGroundHeight(this.xrCamera!.position)) {
-                this.xrCamera!.position.y = this.calculateGroundHeight(this.xrCamera!.position);
-                this.isLeaping = false; // Reset leaping state upon landing
-            }
-        } else {
+        if(!this.isLeaping){
             const gravity = -9.8 * this.engine.getDeltaTime() / 1000; // Normal gravity
             this.xrCamera!.position.y += gravity;
             // Ensure the camera doesn't go below the ground level
@@ -489,6 +528,12 @@ class Game {
             if (this.rightController?.userData.isClimbing) {
                 this.processClimbingMovement(this.rightController);
             }
+        }
+        if (this.leftController) {
+            this.updateControllerTracking(this.leftController);
+        }
+        if (this.rightController) {
+            this.updateControllerTracking(this.rightController);
         }
     }
 
@@ -560,20 +605,66 @@ class Game {
         }
             this.releaseGrabbedObject(controller);
             if (!this.leftController?.userData?.isClimbing && !this.rightController?.userData?.isClimbing && !this.isLeaping) {
-                this.startLeap();
+                this.initiateLeapIfNecessary(controller);
             }
         }
     }
-     
-    private startLeap(): void {
-        if (!this.isLeaping) { // Prevent initiating a new leap mid-air
-            this.isLeaping = true;
-            this.leapVelocity = 15; // Set initial upward velocity for the leap
+
+    private shouldInitiateLeap(controller: WebXRInputSource): boolean {
+        const speedThreshold = 0.5; // Adjust based on testing
+        return this.calculateControllerSpeed(controller) > speedThreshold;
+    }
+
+    private initiateLeapIfNecessary(controller: WebXRInputSource): void {
+        if (this.shouldInitiateLeap(controller)) {
+            let speed = this.calculateControllerSpeed(controller);        
+            this.leap(speed); // Pass the direction and speed to the leap method
         }
     }
-    
-    
 
+    private leap(speed: number): void {
+        const lookDirection = this.xrCamera!.getForwardRay().direction;
+        const horizontalDirection = new Vector3(lookDirection.x, 0, lookDirection.z).normalize();
+        const isLookingUp = lookDirection.y > 0.2;
+        const isLookingHorizontally = Math.abs(lookDirection.y) <= 0.2;
+    
+        // Leap parameters adjustment
+        let verticalBoost = isLookingUp ? 2 : 1; // Fine-tune as needed
+        let horizontalLeapPower = isLookingHorizontally ? 1.2 : 1; // Adjust based on horizontal look
+    
+        // Construct leap direction vector
+        let leapDirection = new Vector3(
+            horizontalDirection.x * horizontalLeapPower * speed,
+            verticalBoost, // Apply vertical boost appropriately
+            horizontalDirection.z * horizontalLeapPower * speed
+        );
+    
+        let backwardOffset = horizontalDirection.scale(-2); // Directly opposite to facing direction
+    
+        leapDirection.addInPlace(backwardOffset);
+    
+        this.isLeaping = true;
+        this.smoothLeap(leapDirection, 1000); // Leap duration
+    }
+    
+    private smoothLeap(leapVector: Vector3, duration: number): void {
+        // Smooth leap implementation
+        const startTime = Date.now();
+        const endTime = startTime + duration;
+    
+        const updateLeap = () => {
+            const now = Date.now();
+            if (now >= endTime) {
+                this.isLeaping = false;
+                clearInterval(this.updateLoop);
+                return;
+            }
+            this.xrCamera!.position.addInPlace(leapVector.scale(this.engine.getDeltaTime() / 1000));
+        };
+    
+        this.updateLoop = setInterval(updateLeap, 16); // 60 fps
+    }    
+    
     private releaseGrabbedObject(controller: WebXRInputSource): void {
         if (controller === this.leftController && this.leftGrabbedObject && this.leftHandMesh) {
             this.leftGrabbedObject.setParent(null);
