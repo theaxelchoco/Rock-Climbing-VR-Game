@@ -639,7 +639,7 @@ class Game {
             horizontalDirection.z * horizontalLeapPower * speed
         );
     
-        let backwardOffset = horizontalDirection.scale(-2); // Directly opposite to facing direction
+        let backwardOffset = horizontalDirection.scale(-1.5); // Directly opposite to facing direction
     
         leapDirection.addInPlace(backwardOffset);
     
